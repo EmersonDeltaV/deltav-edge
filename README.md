@@ -50,6 +50,7 @@ o	Examples to get all values coming from PT-101.
 Below are the list of third party tools (with steps) you can use to access your data via Edge.
 - [jupyter-labs-for-edge](https://github.com/EmersonDeltaV/jupyter-labs-for-edge)
 - grafana
+- power bi
 
 # References [draft]
 - EDGE is based on eve-os [v9.4.6-lts](https://github.com/EmersonDeltaV/lf-edge-eve)
