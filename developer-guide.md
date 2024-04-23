@@ -8,7 +8,7 @@ The **DeltaV Edge Environment** provides an easy and secure access to DeltaV sys
 The DeltaV Edge Environment provides access to DeltaV system data through a unified solution architecture while satisfying IT cybersecurity, communications, and application requirements—all without disrupting the DeltaV system. 
 
 
-![Figure 1-1. DeltaV Edge Environment Architecture](edge_architecture.png)
+![DeltaV Edge Environment Architecture](edge-architecture.png)
 
 The DeltaV Edge Environment solution consists of four major product components
 
@@ -25,7 +25,7 @@ The DeltaV Edge Environment solution consists of four major product components
 
 The Data Provider resides on a dedicated DeltaV Application Station. It reads alarms and events information, real-time module and function block parameters, and sends all of the data to the Edge Environment on a continuous basis.
 
-![Figure 1-2. DeltaV Edge Environment Data Provider](data-provider.png)
+![DeltaV Edge Environment Data Provider](data-provider.png)
 
 In addition, for configured automatic FHX exports, the Data Provider constantly accesses the latest configuration hierarchy based on the DeltaV configuration file and sends the configuration data to the Edge Environment. The Data Provider also consolidates different data types and streams into one outbound data flow.
 
@@ -36,9 +36,9 @@ You can easily configure the Data Provider to receive alarms and events, subscri
 
 The Edge Node hosts and executes a series of software applications including data services, interfaces, databases, and analytical applications to create an on-demand digital twin replicating both DeltaV system data and the configuration hierarchy for data contextualization. 
 
-![Figure 1-3. DeltaV Edge Environment Server](edge-server.png)
+![DeltaV Edge Environment Server](edge-server.png)
 
-![Figure 1-4. DeltaV Edge Environment Node Components](edge-node-components.png)
+![DeltaV Edge Environment Node Components](edge-node-components.png)
 
 
 The Edge Environment’s Edge Data Service receives data from the Data Provider, recognizes the data characteristics, and pushes the data into a specific database or database area. The Edge Environment’s internal database temporarily caches all received data for up to one year. 
