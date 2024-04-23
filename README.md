@@ -52,5 +52,12 @@ Below are the list of third party tools (with steps) you can use to access your 
 - grafana
 - power bi
 
+# Contributing
+
+This project welcomes contributions, suggestions, and feedback. All contributions, suggestions, and feedback you submitted are accepted under the Project's license. You represent that if you do not own copyright in the code that you have the authority to submit it under the Project's license. All feedback, suggestions, or contributions are not confidential.
+
+For more information on how to contribute to DeltaV Edge Environment, please read CONTRIBUTING.md.
+
+
 # References [draft]
 - EDGE is based on eve-os [v9.4.6-lts](https://github.com/EmersonDeltaV/lf-edge-eve)
