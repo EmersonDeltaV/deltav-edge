@@ -56,7 +56,7 @@ The Edge Environment's operating system is based on Linux kernel. All the softwa
 As a cloud-based software, the Edge Orchestration capability connects to the Edge Environment operating system and helps users manage their Edge Environments by providing visibility and control to both the software applications running within the Edge Environment and the underlying EVE-OS and computing resources. Edge Orchestration is the Edge Environment’s control panel.
 
 
-![Figure 1-5. DeltaV Edge Environment Architecture](edge-orchestration.png)
+![DeltaV Edge Environment Architecture](edge-orchestration.png)
 
 Edge Orchestration can:
 
@@ -82,7 +82,7 @@ For additional security, you can deploy an optional data diode between the Data 
 
 OPSWAT's NetWall Optical Diode is the tested and validated solution for users that need to egress data from the DeltaV system through the DeltaV Edge Environment using a data diode. The NetWall Optical Diode reliably transfers data over a hardware enforced one-way communications link enabling secure data sharing between isolated networks. The Data Diode supports a wide range of industrial protocols, is highly scalable, and can transfer real-time and historical data while ensuring the security and integrity of your critical assets.
 
-For more detailed system component specifications, please check [edge-system-components](../edge-system-components)
+For more detailed system component specifications, please check [DeltaV Edge System Components Specifications](system-components.md)
 
 
 
