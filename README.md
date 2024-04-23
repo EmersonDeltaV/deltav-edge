@@ -23,34 +23,22 @@ The intent of this github page is to provide sample code, guides, and software d
 
 To get you started, here are additional info on Edge functionality, sample guides, and repositories:
 
-\<In-depth Developer Guide (separate page) including:\>
-
-\<Types of data being gathered\>
-
-\<High level architecture description, describing behavior – e.g. polling, continuous streaming, data throughput, one-way data transfer, limitations, and other application behavior that may be useful to developers, and recommendations\> 
-
-# Sample usage
-
--	\<sample data access using OPC UA\>
--	\<sample data access using REST API\>
-o	Examples to get all values coming from PT-101.
--	Connecting data to Power BI
-
-# Note to developers
-
-<e.g. things like.. “Only latest versions are supported, and will not include…”>
-
-
-# Related repositories
-
--	[delta-edge-sdk](https://github.com/EmersonDeltaV/deltav-edge-sdk)
--	[simple-dockerapp-dotnet6](https://github.com/EmersonDeltaV/simple-dockerapp-dotnet6)
-
-# Third-party tools with Edge [Draft]
-Below are the list of third party tools (with steps) you can use to access your data via Edge.
-- [jupyter-labs-for-edge](https://github.com/EmersonDeltaV/jupyter-labs-for-edge)
-- grafana
-- power bi
+In-depth [Developer Guide](developer-guide.md) covering:
+ 
+- DeltaV Edge Envirorment Architecture
+  
+- Types of data being gathered
+  
+- Accessing Data via REST API
+  
+- Accessing Data via OPC UA
+  
+- Connecting to commercial applications such as PowerBI and Excel
+  
+- Connecting to Third Party Applications within Edge such as Grafana, Node-RED, and Jupyter Notebook
+  
+- Creating Edge Applications in Edge App Marketplace
+  
 
 # Contributing
 
