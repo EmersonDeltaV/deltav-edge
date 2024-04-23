@@ -175,11 +175,16 @@ There are a lot more ways of accessing DeltaV data via REST API, such as:
 
 **-  Access Control Hierarchy Data**
 
+-- provide more info here
+
 **- Access Runtime Process Values (Parameter Data)**
+
+-- provide more info here
 
 **- Access Cached Process Values (Parameter Data)**
 
+-- provide more info here
 **- Access Cached Alarms & Events Data**
 
  
-For more detailed instructions, please check ![edge-rest-api-access-data](../edge-rest-api-access-data)
+For more detailed instructions, please refer to ![REST API Acess Data](rest-api-access-data.md)
