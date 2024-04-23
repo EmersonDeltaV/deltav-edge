@@ -147,6 +147,25 @@ The OPC Unified Architecture (OPC UA) interface is a cross-platform, open-source
 
 For more details on how to access data via OPC UA, please check this repo: [OPC UA Guide](opc-ua.md)
 
-## Other relevant repositories:
 
-```deltav-edge-sdk```  ```sample```
+# Related repositories
+
+-	[delta-edge-sdk](https://github.com/EmersonDeltaV/deltav-edge-sdk)
+-	[simple-dockerapp-dotnet6](https://github.com/EmersonDeltaV/simple-dockerapp-dotnet6)
+
+# Third-party tools with Edge
+Below are the list of third party tools (with steps) you can use to access your data via Edge.
+- [jupyter-labs-for-edge](https://github.com/EmersonDeltaV/jupyter-labs-for-edge)
+
+- Grafana
+
+- Node-RED
+
+- Power BI
+
+- Excel
+
+# Note to developers
+
+<e.g. things like.. “Only latest versions are supported, and will not include…”>
+
