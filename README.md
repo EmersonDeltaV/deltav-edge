@@ -4,10 +4,21 @@ The DeltaV Edge Environment is a platform that provides easy and secure access t
 
 ![DeltaV Edge Environment](deltav-edge-architecture.png)
 
+The **DeltaV Edge Environment** provides:
+
+- Secure Access to DeltaV System Data
+
+-  
+
 Accessing plant data from a Distributed Control System such as DeltaV, can be a very complex task.
 Data resides down in the Control Network and thus bringing it outside to the Enterprise network requires multiple layers of secure processing.  
 
+<img src="hard-way.png" width=500>
+
 The DeltaV Edge Environment simplifies data access to plant data by handling all of the security transfer from across the different network layers.  DeltaV Edge Environment also manages the contextualization of data coming from the Control Network instead of by relating it to where it is being used, instead of simply presenting raw data values.  
+
+<img src="easy-way.png" width=500>
+
 
 The DeltaV Edge Environment provides a common application platform that makes this contextual set of data available via industry standard protocols such as OPC UA and REST API, thus allowing more data consumption options through third-party applications such as Grafana, Node-RED, and JupyterLabs Notebook.  
 
