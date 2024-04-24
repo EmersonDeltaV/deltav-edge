@@ -161,7 +161,8 @@ For more details on how to access data via OPC UA, please check this repo: [OPC 
 -	[simple-dockerapp-dotnet6](https://github.com/EmersonDeltaV/simple-dockerapp-dotnet6)
 
 # Third-party tools with Edge
-Below are the list of third party tools (with steps) you can use to access your data via Edge.
+
+Below are example third party tools (with steps) you can use to access your data via DeltaV Edge Environment.
 - [jupyter-labs-for-edge](https://github.com/EmersonDeltaV/jupyter-labs-for-edge)
 
 - Grafana
