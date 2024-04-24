@@ -36,15 +36,15 @@ In-depth [Developer Guide](developer-guide.md) covering:
  
 - DeltaV Edge Envirorment Architecture and System Components
   
-- Types of data being gathered
+- Types and Categories of data being gathered
   
 - Accessing Data via REST API
   
 - Accessing Data via OPC UA
   
-- Connecting to commercial applications such as PowerBI and Excel
+- Connecting to commercial applications (e.g. Power BI, Excel)
   
-- Connecting to Third Party Applications within Edge such as Grafana, Node-RED, and Jupyter Notebook
+- Connecting to Third Party Applications within Edge Environment (e.g. Grafana, Node-RED, JupyterLabs Notebook)
   
 - Creating Edge Applications in Edge App Marketplace
   
