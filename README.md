@@ -2,7 +2,7 @@
 
 The DeltaV Edge Environment is a platform that provides easy and secure access to DeltaV system data for on-premise use or in the cloud for monitoring, analytics, reporting or for other Enterprise applications.
 
-![DeltaV Edge Environment](deltav-edge-architecture.png width="100" height="100")
+![DeltaV Edge Environment](deltav-edge-architecture.png)
 
 Accessing plant data from a Distributed Control System such as DeltaV, can be a very complex task.
 Data resides down in the Control Network and thus bringing it outside to the Enterprise network requires multiple layers of secure processing.  
