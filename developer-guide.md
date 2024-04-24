@@ -8,9 +8,9 @@ The **DeltaV Edge Environment** provides an easy and secure access to DeltaV sys
 The DeltaV Edge Environment provides access to DeltaV system data through a unified solution architecture while satisfying IT cybersecurity, communications, and application requirements—all without disrupting the DeltaV system. 
 
 
-![DeltaV Edge Environment Architecture](edge-architecture.png)
+![DeltaV Edge Environment Architecture](deltav-edge-architecture.png)
 
-The DeltaV Edge Environment solution consists of four major product components
+The DeltaV Edge Environment solution consists of four major product components:
 
 -	Data Provider
 
@@ -25,7 +25,7 @@ The DeltaV Edge Environment solution consists of four major product components
 
 The Data Provider resides on a dedicated DeltaV Application Station. It reads alarms and events information, real-time module and function block parameters, and sends all of the data to the Edge Environment on a continuous basis.
 
-![DeltaV Edge Environment Data Provider](edge-data-provider.png)
+<img src="edge-data-provider.png" width=300>
 
 In addition, for configured automatic FHX exports, the Data Provider constantly accesses the latest configuration hierarchy based on the DeltaV configuration file and sends the configuration data to the Edge Environment. The Data Provider also consolidates different data types and streams into one outbound data flow.
 
@@ -38,7 +38,7 @@ The Edge Node hosts and executes a series of software applications including dat
 
 
 
-![DeltaV Edge Environment Node Components](edge-node.png)
+<img src="edge-node.png" width=300>
 
 
 The Edge Environment’s Edge Data Service receives data from the Data Provider, recognizes the data characteristics, and pushes the data into a specific database or database area. The Edge Environment’s internal database temporarily caches all received data for up to one year. 
@@ -70,7 +70,7 @@ Edge Orchestration can:
 
 -	configure network setups, update operating systems, and perform system-wide backups. 
 
-![DeltaV Edge Environment Orchestration Diagram](edge-orchestration-diagram.png)
+<img src="edge-orchestration-diagram.png" width=500>
 
 The connection between the Edge Environment and Edge Orchestration is based on HTTPS, which is normally open at the enterprise network (Purdue Model Level 4) and the plant network (Purdue Model Level 3). 
 The Edge Environments can stay connected with Edge Orchestration so you can monitor the Edge Environment's working status and diagnostics on a constant basis. 
@@ -139,7 +139,7 @@ The DeltaV Edge Environment exposes DeltaV data via industry standard interfaces
 The OPC Unified Architecture (OPC UA) interface is a cross-platform, open-source, standard for data exchange for industrial applications. 
 
 
-![Accessing Data](edge-data-access.png)
+<img src="edge-data-access.png" width=600>
 
 ## Access DeltaV Data on the Edge Node through REST API
 
