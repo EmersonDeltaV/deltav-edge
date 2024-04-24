@@ -171,20 +171,22 @@ have Entity IDs on the Edge REST API. They can only be queried by path.
 - Folders
 
 
-There are a lot more ways of accessing DeltaV data via REST API, such as:
+There are different categories of data that can be accessed through REST API:
 
 **-  Access Control Hierarchy Data**
 
--- provide more info here
+_-- provide more info here_
 
 **- Access Runtime Process Values (Parameter Data)**
 
--- provide more info here
+_-- provide more info here_
 
 **- Access Cached Process Values (Parameter Data)**
 
--- provide more info here
+_-- provide more info here_
+
 **- Access Cached Alarms & Events Data**
+_-- provide more info here_
 
  
-For more detailed instructions, please refer to ![REST API Acess Data](rest-api-access-data.md)
+For more detailed instructions, please refer to [REST API Acess Data](rest-api-access-data.md)
