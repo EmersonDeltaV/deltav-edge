@@ -1,6 +1,9 @@
 # DeltaV Edge Environment
 
 The DeltaV Edge Environment is a platform that provides easy and secure access to DeltaV system data for on-premise use or in the cloud for monitoring, analytics, reporting or for other Enterprise applications.
+
+![DeltaV Edge Environment](deltav-edge-architecture.png width="100" height="100")
+
 Accessing plant data from a Distributed Control System such as DeltaV, can be a very complex task.
 Data resides down in the Control Network and thus bringing it outside to the Enterprise network requires multiple layers of secure processing.  
 
@@ -10,13 +13,18 @@ The DeltaV Edge Environment provides a common application platform that makes th
 
 
 
-The intent of this github page is to provide sample code, guides, and software development kits to encourage non-Emerson developers to create their own applications that can unlock the potential of having access to such wealth of plant data, such as data analytics, graphical representation, etc.
+_The intent of this github page is to provide sample code, guides, and software development kits to encourage non-Emerson developers to create their own applications that can unlock the potential of having access to such wealth of plant data, such as data analytics, graphical representation, etc._
 
 
 # Application Development features include
 -	Contextualized data available via OPC UA and REST API.
 -	Online Cloud orchestration of Edge Nodes and Applications
 -	Easy application management via Docker containers and Virtual Machines.
+
+|  Supported Protocols | Third Party Applications |
+|------|------|
+|<img src="rest-api.png" width=80> <img src="opc-ua.png" width=80>|<img src="grafana.png" width=80> <img src="node-red.png" width=80> <img src="jupyter.png" width=80>|
+
 
 
 # Getting Started
@@ -47,5 +55,5 @@ This project welcomes contributions, suggestions, and feedback. All contribution
 For more information on how to contribute to DeltaV Edge Environment, please read CONTRIBUTING.md.
 
 
-# References [draft]
+# References
 - EDGE is based on eve-os [v9.4.6-lts](https://github.com/EmersonDeltaV/lf-edge-eve)
