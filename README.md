@@ -16,7 +16,8 @@ The DeltaV Edge Environment provides a common application platform that makes th
 _The intent of this github page is to provide sample code, guides, and software development kits to encourage non-Emerson developers to create their own applications that can unlock the potential of having access to such wealth of plant data, such as data analytics, graphical representation, etc._
 
 
-# Application Development features include
+Application Development features include:
+
 -	Contextualized data available via OPC UA and REST API.
 -	Online Cloud orchestration of Edge Nodes and Applications
 -	Easy application management via Docker containers and Virtual Machines.
@@ -50,9 +51,9 @@ In-depth [Developer Guide](developer-guide.md) covering:
 
 # Contributing
 
-This project welcomes contributions, suggestions, and feedback. All contributions, suggestions, and feedback you submitted are accepted under the Project's license. You represent that if you do not own copyright in the code that you have the authority to submit it under the Project's license. All feedback, suggestions, or contributions are not confidential.
+This project welcomes contributions, suggestions, and feedback. All contributions, suggestions, and feedback you submit are accepted under the Project's license. You represent that if you do not own copyright in the code that you have the authority to submit it under the Project's license. All feedback, suggestions, or contributions are not confidential.
 
-For more information on how to contribute to DeltaV Edge Environment, please read CONTRIBUTING.md.
+For more information on how to contribute to DeltaV Edge Environment, please read [CONTRIBUTING.md](CONTRIBUTING.md]).
 
 
 # References
