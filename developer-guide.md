@@ -25,7 +25,7 @@ The DeltaV Edge Environment solution consists of four major product components
 
 The Data Provider resides on a dedicated DeltaV Application Station. It reads alarms and events information, real-time module and function block parameters, and sends all of the data to the Edge Environment on a continuous basis.
 
-![DeltaV Edge Environment Data Provider](data-provider.png)
+![DeltaV Edge Environment Data Provider](edge-data-provider.png)
 
 In addition, for configured automatic FHX exports, the Data Provider constantly accesses the latest configuration hierarchy based on the DeltaV configuration file and sends the configuration data to the Edge Environment. The Data Provider also consolidates different data types and streams into one outbound data flow.
 
@@ -36,9 +36,9 @@ You can easily configure the Data Provider to receive alarms and events, subscri
 
 The Edge Node hosts and executes a series of software applications including data services, interfaces, databases, and analytical applications to create an on-demand digital twin replicating both DeltaV system data and the configuration hierarchy for data contextualization. 
 
-![DeltaV Edge Environment Server](edge-server.png)
 
-![DeltaV Edge Environment Node Components](edge-node-components.png)
+
+![DeltaV Edge Environment Node Components](edge-node.png)
 
 
 The Edge Environment’s Edge Data Service receives data from the Data Provider, recognizes the data characteristics, and pushes the data into a specific database or database area. The Edge Environment’s internal database temporarily caches all received data for up to one year. 
@@ -49,14 +49,16 @@ To easily use data, you can deploy applications in the Edge Environment. For exa
 
 The Edge Environment's operating system is based on Linux kernel. All the software applications are deployed based on the Edge Environment operating system either as a virtual machine or a container. 
 
+![DeltaV Edge Environment Server](edge-server.png)
 
- 
+For detailed Server hardware specifications, refer to [Edge Environment System Components](system-components.md) 
+
 ## Edge Orchestration 
 
 As a cloud-based software, the Edge Orchestration capability connects to the Edge Environment operating system and helps users manage their Edge Environments by providing visibility and control to both the software applications running within the Edge Environment and the underlying EVE-OS and computing resources. Edge Orchestration is the Edge Environment’s control panel.
 
 
-![DeltaV Edge Environment Architecture](edge-orchestration.png)
+![DeltaV Edge Environment Orchestration](edge-orchestration.png)
 
 Edge Orchestration can:
 
@@ -68,6 +70,8 @@ Edge Orchestration can:
 
 -	configure network setups, update operating systems, and perform system-wide backups. 
 
+![DeltaV Edge Environment Orchestration Diagram](edge-orchestration-diagram.png)
+
 The connection between the Edge Environment and Edge Orchestration is based on HTTPS, which is normally open at the enterprise network (Purdue Model Level 4) and the plant network (Purdue Model Level 3). 
 The Edge Environments can stay connected with Edge Orchestration so you can monitor the Edge Environment's working status and diagnostics on a constant basis. 
 
@@ -78,7 +82,7 @@ Alternatively, you can connect the Edge Environment to the Edge Orchestration on
 
 For additional security, you can deploy an optional data diode between the Data Provider and the Edge Environment. 
 
-![Figure 1-6. DeltaV Edge Environment Architecture](opswat-data-diode.png)
+![OPSWAT Data Diode](opswat-data-diode.png)
 
 OPSWAT's NetWall Optical Diode is the tested and validated solution for users that need to egress data from the DeltaV system through the DeltaV Edge Environment using a data diode. The NetWall Optical Diode reliably transfers data over a hardware enforced one-way communications link enabling secure data sharing between isolated networks. The Data Diode supports a wide range of industrial protocols, is highly scalable, and can transfer real-time and historical data while ensuring the security and integrity of your critical assets.
 
@@ -133,6 +137,9 @@ Listed below are DeltaV objects/entities coming from Data Provider:
 The DeltaV Edge Environment exposes DeltaV data via industry standard interfaces such as as REST API and OPC UA.  
 
 The OPC Unified Architecture (OPC UA) interface is a cross-platform, open-source, standard for data exchange for industrial applications. 
+
+
+![Accessing Data](edge-data-access.png)
 
 ## Access DeltaV Data on the Edge Node through REST API
 

@@ -25,7 +25,7 @@ To get you started, here are additional info on Edge functionality, sample guide
 
 In-depth [Developer Guide](developer-guide.md) covering:
  
-- DeltaV Edge Envirorment Architecture
+- DeltaV Edge Envirorment Architecture and System Components
   
 - Types of data being gathered
   
