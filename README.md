@@ -2,7 +2,7 @@
 
 The DeltaV Edge Environment is a platform that provides easy and secure access to DeltaV system data for on-premise use or in the cloud for monitoring, analytics, reporting or for other Enterprise applications.
 
-![DeltaV Edge Environment](deltav-edge-architecture.png)
+![DeltaV Edge Environment](./developer-guide/deltav-edge-architecture.png)
 
 The **DeltaV Edge Environment** provides:
 
@@ -27,7 +27,7 @@ The DeltaV Edge Environment simplifies data access to plant data by handling all
 _need more intro here_
 
 
-<img src="hard-way.png" width=500>
+<img src="hard-way-data.png" width=500>
 
 
 DeltaV Edge Environment also manages the contextualization of data coming from the Control Network instead of by relating it to where it is being used, instead of simply presenting raw data values.  
@@ -51,7 +51,7 @@ Application Development features include:
 
 |  Supported Protocols | Third Party Applications |
 |------|------|
-|<img src="rest-api.png" width=80> <img src="opc-ua.png" width=80>|<img src="grafana.png" width=80> <img src="node-red.png" width=80> <img src="jupyter.png" width=80>|
+|<img src="./images/rest-api.png" width=80> <img src="opc-ua.png" width=80>|<img src="grafana.png" width=80> <img src="node-red.png" width=80> <img src="jupyter.png" width=80>|
 
 
 
@@ -59,7 +59,7 @@ Application Development features include:
 
 To get you started, here are additional info on Edge functionality, sample guides, and repositories:
 
-In-depth [Developer Guide](developer-guide.md) covering:
+In-depth [Developer Guide](./developer-guide/developer-guide.md) covering:
  
 - DeltaV Edge Envirorment Architecture and System Components
   

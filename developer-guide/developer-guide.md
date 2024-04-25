@@ -143,14 +143,14 @@ The OPC Unified Architecture (OPC UA) interface is a cross-platform, open-source
 
 REST (representational state transfer) API is a web service that is based on HTTPS and provides data in JSON format, which are both compatible to numerous modern data analytics applications, such as Grafana, Jupyter Notebook, Node-RED, PowerBI, Excel, etc.
 
-For more details on how to access data via REST API, please see more detailed instructions in [REST API Guide](rest-api.md)
+For more details on how to access data via REST API, please see more detailed instructions in [REST API Guide](./rest-api/rest-api.md)
 
 
 ## Access DeltaV Data on the Edge Node using OPC UA
 
 The OPC Unified Architecture (OPC UA) interface is a cross-platform, open-source, standard for data exchange for industrial applications. 
 
-For more details on how to access data via OPC UA, please check this repo: [OPC UA Guide](opc-ua.md)
+For more details on how to access data via OPC UA, please check this repo: [OPC UA Guide](./opc-ua/opc-ua.md)
 
 
 # Related repositories
