@@ -189,4 +189,4 @@ _-- provide more info here_
 _-- provide more info here_
 
  
-For more detailed instructions, please refer to [REST API Acess Data](rest-api-access-data.md)
+For more detailed instructions, please refer to [REST API Acess Data](./rest-api-data-access/rest-api-access-data.md)

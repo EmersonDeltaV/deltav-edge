@@ -47,9 +47,9 @@ To easily use data, you can deploy applications in the Edge Environment. For exa
 
 The Edge Environment's operating system is based on Linux kernel. All the software applications are deployed based on the Edge Environment operating system either as a virtual machine or a container. 
 
-![DeltaV Edge Environment Server](edge-server.png)
+![DeltaV Edge Environment Server](./system-components/edge-server.png)
 
-For detailed Server hardware specifications, refer to [Edge Environment System Components](system-components.md) 
+For detailed Server hardware specifications, refer to [Edge Environment System Components](./system-components/system-components.md) 
 
 ## Edge Orchestration 
 
@@ -80,11 +80,11 @@ Alternatively, you can connect the Edge Environment to the Edge Orchestration on
 
 For additional security, you can deploy an optional data diode between the Data Provider and the Edge Environment. 
 
-<img src="opswat-data-diode.png" width=400>
+<img src="./system-components/opswat-data-diode.png" width=400>
 
 OPSWAT's NetWall Optical Diode is the tested and validated solution for users that need to egress data from the DeltaV system through the DeltaV Edge Environment using a data diode. The NetWall Optical Diode reliably transfers data over a hardware enforced one-way communications link enabling secure data sharing between isolated networks. The Data Diode supports a wide range of industrial protocols, is highly scalable, and can transfer real-time and historical data while ensuring the security and integrity of your critical assets.
 
-For more detailed system component specifications, please check [DeltaV Edge System Components Specifications](system-components.md)
+For more detailed system component specifications, please check [DeltaV Edge System Components Specifications](./system-components/system-components.md)
 
 
 
@@ -143,14 +143,14 @@ The OPC Unified Architecture (OPC UA) interface is a cross-platform, open-source
 
 REST (representational state transfer) API is a web service that is based on HTTPS and provides data in JSON format, which are both compatible to numerous modern data analytics applications, such as Grafana, Jupyter Notebook, Node-RED, PowerBI, Excel, etc.
 
-For more details on how to access data via REST API, please see more detailed instructions in [REST API Guide](rest-api.md)
+For more details on how to access data via REST API, please see more detailed instructions in [REST API Guide](./rest-api/rest-api.md)
 
 
 ## Access DeltaV Data on the Edge Node using OPC UA
 
 The OPC Unified Architecture (OPC UA) interface is a cross-platform, open-source, standard for data exchange for industrial applications. 
 
-For more details on how to access data via OPC UA, please check this repo: [OPC UA Guide](opc-ua.md)
+For more details on how to access data via OPC UA, please check this repo: [OPC UA Guide](./opc-ua/opc-ua.md)
 
 
 # Related repositories
