@@ -49,15 +49,25 @@ Application Development features include:
 -	Online Cloud orchestration of Edge Nodes and Applications
 -	Easy application management via Docker containers and Virtual Machines.
 
+_short overview of access via OPC UA and REST API_
+
 |  Supported Protocols | Third Party Applications |
 |------|------|
-|<img src="./images/rest-api.png" width=80> <img src="./images/opc-ua.png" width=80>|<img src="./images/grafana.png" width=80> <img src="./images/node-red.png" width=80> <img src="./images/jupyter.png" width=80>|
+| **REST API** <img src="./images/rest-api.png" width=80> | 
+| **OPC UA** <img src="./images/opc-ua.png" width=80> | 
+| **Grafana** <img src="./images/grafana.png" width=80> | 
+| **Node-RED **<img src="./images/node-red.png" width=80> | 
+| **Jupyter **<img src="./images/jupyter.png" width=80>|
 
 
 
 # Getting Started
 
 To get you started, here are additional info on Edge functionality, sample guides, and repositories:
+
+
+_insert links to sample repos here___
+
 
 In-depth [Developer Guide](./developer-guide/developer-guide.md) covering:
  
