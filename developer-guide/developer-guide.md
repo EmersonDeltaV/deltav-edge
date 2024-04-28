@@ -171,7 +171,6 @@ Below are example third party tools (with steps) you can use to access your data
 
 - Excel
 
-# Note to developers
+# Creating Edge Applications in Edge App Marketplace
 
-<e.g. things like.. “Only latest versions are supported, and will not include…”>
 

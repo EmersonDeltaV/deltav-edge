@@ -4,40 +4,22 @@ The DeltaV Edge Environment is a platform that provides easy and secure access t
 
 ![DeltaV Edge Environment](./developer-guide/deltav-edge-architecture.png)
 
-The **DeltaV Edge Environment** provides:
-
-- Secure Access to DeltaV System Data
-
--  
 
 ## Secure Access to DeltaV System Data
 
 Accessing plant data from a Distributed Control System such as DeltaV, can be a very complex task.
 Data resides down in the Control Network and thus bringing it outside to the Enterprise network requires multiple layers of secure processing.  
-
-<img src="./images/hard-way.png" width=500>
-
 The DeltaV Edge Environment simplifies data access to plant data by handling all of the security transfer from across the different network layers.  
-
-<img src="./images/easy-way.png" width=500>
-
 
 ## Data Contextualization
 
-_need more intro here_
-
-
-<img src="./images/hard-way-data.png" width=500>
-
+Extracting control system data often strips away valuable information about relationships between data points – information that exists natively within control system configurations. This loss of embedded context makes it hard to understand how the data relates to the real-world process.
 
 DeltaV Edge Environment also manages the contextualization of data coming from the Control Network instead of by relating it to where it is being used, instead of simply presenting raw data values.  
 
-<img src="./images/easy-way-data.png" width=500>
-
+## Easy Application Deployment 
 
 The DeltaV Edge Environment also provides a common application platform that makes this contextual set of data available via industry standard protocols such as OPC UA and REST API, thus allowing more data consumption options through third-party applications such as Grafana, Node-RED, and JupyterLabs Notebook.  
-
-<img src="./images/edge-marketplace.png" width=500>
 
 
 _The intent of this github page is to provide sample code, guides, and software development kits to encourage non-Emerson developers to create their own applications that can unlock the potential of having access to such wealth of plant data, such as data analytics, graphical representation, etc._
@@ -49,15 +31,19 @@ Application Development features include:
 -	Online Cloud orchestration of Edge Nodes and Applications
 -	Easy application management via Docker containers and Virtual Machines.
 
-_short overview of access via OPC UA and REST API_
+
+DeltaV Edge Environment makes the data readily accessible to the user via industry standard REST API and OPC UA endpoints. 
+
 
 |  Supported Protocols | Third Party Applications |
 |------|------|
-| **REST API** <img src="./images/rest-api.png" width=80> | 
-| **OPC UA** <img src="./images/opc-ua.png" width=80> | 
-| **Grafana** <img src="./images/grafana.png" width=80> | 
-| **Node-RED **<img src="./images/node-red.png" width=80> | 
-| **Jupyter **<img src="./images/jupyter.png" width=80>|
+| <img src="./images/rest-api.png" width=80><p>**REST API** |  <img src="./images/opc-ua.png" width=80><p> **OPC UA** | 
+
+
+| Header 1 | Header 2 | Header 3 |
+|----------|----------|----------|
+| <img src="./images/grafana.png" width=80><p>**Grafana**   | <img src="./images/node-red.png" width=80>v<p> **Node-RED**   | <img src="./images/jupyter.png" width=80><p> **Jupyter Notebook**   |
+
 
 
 
