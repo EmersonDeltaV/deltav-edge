@@ -1,9 +1,6 @@
-_Intro here_
-
-
 # Access Control Hierarchy Data
 
-__describe this the purpose of this section__
+**Control Hierarchy Data** refers to the DeltaV system configuration, mainly its Entities (representations of the objects of interest in our domain) that make up the system hierarchy, from System to parameters and fields. This gives the user a replication of the configuration hierarchy for data contextualization.
 
 Retrieve the control hierarchy data through the REST API Graph endpoint:
 ```
@@ -71,6 +68,8 @@ where `{edge_ip}` is the IP address of the Edge Node Enterprise network (eth0).
 
 # Access Runtime Process Values (Parameter Data)
 
+**Runtime Process Values** refer to the values of function block parameter fields being read at real-time. These provide actual, near-live values to make sense of ongoing processes.
+
 You can monitor runtime updates to parameter fields by filtering the parameter field on the REST API Graph endpoint. Follow the syntax below to monitor parameter field values.
 
 ## Query by Path
@@ -99,6 +98,7 @@ You can monitor runtime updates to parameter fields by filtering the parameter f
 
 # Access Cached Process Values (Parameter Data)
 
+**Cached Process Values** refer to the historical values of function block parameter fields. These provide a record of process values that can be used to observe trends and create reports.
 
 Retrieve the cached Process Values data through the REST API History endpoint:
 ```
@@ -154,6 +154,8 @@ Below is the list of aggregate functions that you can apply to cached parameter 
 
 # Access Cached Alarms and Events Data
 
+**Alarms & Events** data refer to any noteworthy occurrence in your process or system. These provide records of events that you want the system to react to, or to be brought to the operator's attention. 
+
 Retrieve the cached Alarms and Events records through the REST API AE endpoint:
 ```
 https://{edge_ip}/edge/api/v1/ae
@@ -177,3 +179,5 @@ You can also filter the records by property. All the available properties can be
 
 ### Example: Query Alarms and Events with Timespan and Property
 ![Figure 6-20: Query Alarms and Events with timespan and Property](6-20-query-alarms-events-timespan-property.png)
+
+
