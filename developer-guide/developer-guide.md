@@ -147,6 +147,6 @@ Below are example third party tools (with steps) you can use to access your data
 
 - Excel
 
-# Creating Edge Applications in Edge App Marketplace
+# Creating Edge Applications in Edge App Marketplace (DRAFT)
 
-
+More details on setting up Edge Marketplace Applications can be found in [Edge Marketplace Application Development Guide](edge-applications.md)
