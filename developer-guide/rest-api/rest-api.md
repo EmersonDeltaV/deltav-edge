@@ -173,20 +173,21 @@ have Entity IDs on the Edge REST API. They can only be queried by path.
 
 There are different categories of data that can be accessed through REST API:
 
-**-  Access Control Hierarchy Data**
+- Control Hierarchy Data
+  
+- Runtime Process Values
+  
+- Cached Process Values 
 
-_-- provide more info here_
+- Cached Alarms and Events 
 
-**- Access Runtime Process Values (Parameter Data)**
 
-_-- provide more info here_
+**Control Hierarchy Data** refers to the DeltaV system configuration, mainly its Entities (representations of the objects of interest in our domain) that make up the system hierarchy, from System to parameters and fields. This gives the user a replication of the configuration hierarchy for data contextualization.
 
-**- Access Cached Process Values (Parameter Data)**
+**Runtime Process Values** refer to the values of function block parameter fields being read at real-time. These provide actual, near-live values to make sense of ongoing processes.
 
-_-- provide more info here_
+**Cached Process Values** refer to the historical values of function block parameter fields. These provide a record of process values that can be used to observe trends and create reports.
 
-**- Access Cached Alarms & Events Data**
-_-- provide more info here_
-
+**Alarms & Events** data refer to any noteworthy occurrence in your process or system. These provide records of events that you want the system to react to, or to be brought to the operator's attention. 
  
 For more detailed instructions, please refer to [REST API Acess Data](./rest-api-data-access/rest-api-access-data.md)
