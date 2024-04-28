@@ -51,6 +51,9 @@ The Edge Environment's operating system is based on Linux kernel. All the softwa
 
 For detailed Server hardware specifications, refer to [Edge Environment System Components](./system-components/system-components.md) 
 
+## Edge Orchestration
+
+**NEED TO KNOW LEVEL OF DETAIL THAT WILL BE PRESENTED HERE**
 
 ## Data Diode (Optional)
 
