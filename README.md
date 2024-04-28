@@ -35,12 +35,16 @@ Application Development features include:
 DeltaV Edge Environment makes the data readily accessible to the user via industry standard REST API and OPC UA endpoints. 
 
 
-|  Supported Protocols | Third Party Applications |
+REST (representational state transfer) API is a web service that is based on HTTPS and provides data in JSON format, which are both compatible to numerous modern data analytics applications, such as Grafana, Jupyter Notebook, Node-RED, PowerBI, Excel, etc.
+
+The OPC Unified Architecture (OPC UA) interface is a cross-platform, open-source, standard for data exchange for industrial applications.  Data accessed via OPC UA  is managed via an OPC UA Client (e.g. UaExpert, Integration Objects) connected to the DeltaV Edge Environment OPC UA endpoints.
+
+|  Supported Protocols |  |
 |------|------|
-| <img src="./images/rest-api.png" width=80><p>**REST API** |  <img src="./images/opc-ua.png" width=80><p> **OPC UA** | 
+| <img src="./images/rest-api.png" width=80><p>[REST API](developer-guide/rest-api/rest-api.md) |  <img src="./images/opc-ua.png" width=80><p>[OPC UA](developer-guide/opc-ua/opc-ua.md) | 
 
 
-| Header 1 | Header 2 | Header 3 |
+| Third Party Apps |  |  |
 |----------|----------|----------|
 | <img src="./images/grafana.png" width=80><p>**Grafana**   | <img src="./images/node-red.png" width=80>v<p> **Node-RED**   | <img src="./images/jupyter.png" width=80><p> **Jupyter Notebook**   |
 
