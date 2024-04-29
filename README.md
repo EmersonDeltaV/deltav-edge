@@ -46,14 +46,16 @@ The OPC Unified Architecture (OPC UA) interface is a cross-platform, open-source
 
 ## Use with Third Party Open Source Applications:
 
-| <img src="./images/grafana.png" width=80> | <img src="./images/node-red.png" width=80> | <img src="./images/jupyter.png" width=80> |
-|----------|----------|----------|
-| **Grafana**   | **Node-RED**   | **Jupyter Notebook** |
+| <p align="center"><img src="./images/Grafana.png" width=275></p> | <p align="center"><img src="./images/Node-RED.png" width=275></p> | <p align="center"><img src="./images/JupyterNotebook.png" width=275></p> |
+|---|---|---|
+| <p align="center">**Grafana**  </p> | <p align="center">**Node-RED**  </p> | <p align="center"><a href="https://github.com/EmersonDeltaV/jupyter-labs-for-edge">**Jupyter Notebook**</p> |
 
+
+https://github.com/EmersonDeltaV/jupyter-labs-for-edge
 
 ## Connect to Commercial Applications:
 
-| <img src="./images/grafana.png" width=80> | <img src="./images/node-red.png" width=80> | 
+| <img src="./images/Grafana.png" width=80> | <img src="./images/Node-RED.png" width=80> | 
 |----------|----------|
 | **Power BI**   | **Microsoft Excel**   |
 
