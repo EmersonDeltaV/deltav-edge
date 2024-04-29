@@ -39,4 +39,4 @@ Here are step-by-step instructions for setting up your environment and configuri
     
 Remember to replace `{edge ip}` with the actual IP address of your Edge server. These instructions will guide you in effectively using the Rest API and Bearer Token within Microsoft Excel. 🚀
 
-And thats it! You can now Retrieve your data to Microsoft Excel and create reports, dashboard or tables.
+And thats it! You can now retrieve your data and connect it to Microsoft Excel in order to create reports, dashboard or tables.
