@@ -50,4 +50,4 @@ Here are step-by-step instructions for setting up your environment and configuri
     
 Remember to replace `{edge ip}` with the actual IP address of your Edge server. These instructions will guide you in effectively using the Rest API and Bearer Token within PowerBI. 🚀
 
-And thats it! You can now Retrieve your data to the PowerBI and Create Reports, Dashboard or Tables however you like
+And thats it! You can now retrieve your data and connect it to Power BI in order to create reports, dashboards or tables.
