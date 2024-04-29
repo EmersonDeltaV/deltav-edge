@@ -44,10 +44,17 @@ The OPC Unified Architecture (OPC UA) interface is a cross-platform, open-source
 | [REST API](developer-guide/rest-api/rest-api.md) | [OPC UA](developer-guide/opc-ua/opc-ua.md) | 
 
 
+Use with Third Party Applications:
+
 | <img src="./images/grafana.png" width=80> | <img src="./images/node-red.png" width=80> | <img src="./images/jupyter.png" width=80> |
 |----------|----------|----------|
 | **Grafana**   | **Node-RED**   | **Jupyter Notebook** |
 
+
+
+| <img src="./images/grafana.png" width=80> | <img src="./images/node-red.png" width=80> | 
+|----------|----------|
+| **Power BI**   | **MIcrosoft Excel**   |
 
 
 
