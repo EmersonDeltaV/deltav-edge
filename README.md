@@ -44,17 +44,18 @@ The OPC Unified Architecture (OPC UA) interface is a cross-platform, open-source
 | [REST API](developer-guide/rest-api/rest-api.md) | [OPC UA](developer-guide/opc-ua/opc-ua.md) | 
 
 
-Use with Third Party Applications:
+## Use with Third Party Open Source Applications:
 
 | <img src="./images/grafana.png" width=80> | <img src="./images/node-red.png" width=80> | <img src="./images/jupyter.png" width=80> |
 |----------|----------|----------|
 | **Grafana**   | **Node-RED**   | **Jupyter Notebook** |
 
 
+## Connect to Commercial Applications:
 
 | <img src="./images/grafana.png" width=80> | <img src="./images/node-red.png" width=80> | 
 |----------|----------|
-| **Power BI**   | **MIcrosoft Excel**   |
+| **Power BI**   | **Microsoft Excel**   |
 
 
 
@@ -62,9 +63,9 @@ Use with Third Party Applications:
 
 To get you started, here are additional info on Edge functionality, sample guides, and repositories:
 
-
 -	[delta-edge-sdk](https://github.com/EmersonDeltaV/deltav-edge-sdk)
 -	[simple-dockerapp-dotnet6](https://github.com/EmersonDeltaV/simple-dockerapp-dotnet6)
+-	[Vincent's code](https://8b1e38e9-9001-4711-950c-437a4310f80d.mock.pstmn.io)
 
 
 In-depth [Developer Guide](./developer-guide/developer-guide.md) covering:
