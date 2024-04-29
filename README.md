@@ -39,12 +39,12 @@ REST (REpresentational State Transfer) API is a web service that is based on HTT
 
 The OPC Unified Architecture (OPC UA) interface is a cross-platform, open-source, standard for data exchange for industrial applications.  Data accessed via OPC UA  is managed via an OPC UA Client (e.g. UaExpert, Integration Objects) connected to the DeltaV Edge Environment OPC UA endpoints.
 
-|  Supported Protocols |  |
+|  <img src="./images/rest-api.png" width=80> | <img src="./images/opc-ua.png" width=80> |
 |------|------|
-| <img src="./images/rest-api.png" width=80><p>[REST API](developer-guide/rest-api/rest-api.md) |  <img src="./images/opc-ua.png" width=80><p>[OPC UA](developer-guide/opc-ua/opc-ua.md) | 
+| [REST API](developer-guide/rest-api/rest-api.md) | [OPC UA](developer-guide/opc-ua/opc-ua.md) | 
 
 
-| Third Party Apps |  |  |
+|  |  |  |
 |----------|----------|----------|
 | <img src="./images/grafana.png" width=80><p>**Grafana**   | <img src="./images/node-red.png" width=80>v<p> **Node-RED**   | <img src="./images/jupyter.png" width=80><p> **Jupyter Notebook**   |
 
