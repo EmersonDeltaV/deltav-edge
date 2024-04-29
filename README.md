@@ -57,7 +57,7 @@ https://github.com/EmersonDeltaV/jupyter-labs-for-edge
 
 | <img src="./images/Grafana.png" width=80> | <img src="./images/Node-RED.png" width=80> | 
 |----------|----------|
-| **Power BI**   | **Microsoft Excel**   |
+| [Power BI](developer-guide/power-bi/power-bi.md)  | [Microsoft Excel](developer-guide/microsoft-excel/microsoft-excel.md)   |
 
 
 
