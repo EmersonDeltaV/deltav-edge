@@ -129,7 +129,7 @@ For more details on how to access data via REST API, please see more detailed in
 
 The OPC Unified Architecture (OPC UA) interface is a cross-platform, open-source, standard for data exchange for industrial applications. 
 
-For more details on how to access data via OPC UA, please check this repo: [OPC UA Guide](./opc-ua/opc-ua.md)
+For more details on how to access data via OPC UA, please see more detailed instructions in:   [OPC UA Guide](./opc-ua/opc-ua.md)
 
 
 # Related repositories
