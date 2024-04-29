@@ -1,4 +1,4 @@
-# How to use Edge Environment in the Microsoft Excel
+# How to use Edge Environment in Microsoft Excel
 
 Here are step-by-step instructions for setting up your environment and configuring the necessary components to work with the Rest API Certificate and Bearer Token.
 
