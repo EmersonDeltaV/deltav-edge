@@ -1,4 +1,4 @@
-# How to use Edge Environment in Microsoft Excel
+# How to connect REST API endpoint to Microsoft Excel
 
 Here are step-by-step instructions for setting up your environment and configuring the necessary components to work with the Rest API Certificate and Bearer Token.
 
@@ -39,4 +39,4 @@ Here are step-by-step instructions for setting up your environment and configuri
     
 Remember to replace `{edge ip}` with the actual IP address of your Edge server. These instructions will guide you in effectively using the Rest API and Bearer Token within Microsoft Excel. 🚀
 
-And thats it! You can now Retrieve your data to the PowerBI and Create Reports, Dashboard or Tables however you like
+And thats it! You can now Retrieve your data to Microsoft Excel and create reports, dashboard or tables.
