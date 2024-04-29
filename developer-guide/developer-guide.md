@@ -167,9 +167,9 @@ Below are example third party tools (with steps) you can use to access your data
 
 - Node-RED
 
-- Power BI
+- [Power BI](./power-bi/power-bi.md)
 
-- Excel
+- [Microsoft Excel](./microsoft-excel/microsoft-excel.md)
 
 # Note to developers
 

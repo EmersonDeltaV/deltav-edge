@@ -15,13 +15,12 @@ Here are step-by-step instructions for setting up your environment and configuri
         <img src="images/install-rest-api-cert.png" width=300>
 
 
-2. **Configure PowerBI for Rest API Access**:
-    - Open PowerBI.  
-    <img src="images/power-bi-loader.png" width=300>
-    - Go to **Home > Get Data > Web**.  
-    <img src="images/power-bi-get-data.png" width=300>
+2. **Configure Microsoft Excel for Rest API Access**:
+    - Open Microsoft Excel.  
+    - Go to **Home > Data > From Web**.  
+    <img src="images/ms-excel-get-data.png" width=300>
     - A form will appear.  
-    <img src="images/from-web-form.png" width=300>
+    <img src="images/ms-excel-from-web.png" width=300>
     - Fill in the "URL Parts" with the appropriate details (e.g., `https://{edge ip}/edge/api/v1/ae`).
 
 3. **Set HTTP Request Header Parameters**:
@@ -33,9 +32,9 @@ Here are step-by-step instructions for setting up your environment and configuri
     - Query the following URL: `https://{edge ip}/edge/api/v1/Login/GetAuthToken/profile`.
     - Provide the necessary body parameters (Username and Password) to authenticate and retrieve the bearer token.
 
-4. **Copy access token from the result and paste it in the PowerBI form**:  
+4. **Copy access token from the result and paste it in the Microsoft Excel form**:  
     <img src="images/bearer-token-sample.png" width=800>
     
-Remember to replace `{edge ip}` with the actual IP address of your Edge server. These instructions will guide you in effectively using the Rest API and Bearer Token within PowerBI. 🚀
+Remember to replace `{edge ip}` with the actual IP address of your Edge server. These instructions will guide you in effectively using the Rest API and Bearer Token within Microsoft Excel. 🚀
 
 And thats it! You can now Retrieve your data to the PowerBI and Create Reports, Dashboard or Tables however you like
