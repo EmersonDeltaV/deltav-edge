@@ -34,7 +34,7 @@ Here are step-by-step instructions for setting up your environment and configuri
     - Provide the necessary body parameters (Username and Password) to authenticate and retrieve the bearer token.
 
 4. **Copy access token from the result and paste it in the PowerBI form**:  
-    <img src="images/bearer-token-sample.png" width=300>
+    <img src="images/bearer-token-sample.png" width=800>
     
 Remember to replace `{edge ip}` with the actual IP address of your Edge server. These instructions will guide you in effectively using the Rest API and Bearer Token within PowerBI. 🚀
 
