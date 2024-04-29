@@ -2,7 +2,7 @@
 
 The DeltaV Edge Environment is a platform that provides easy and secure access to DeltaV system data for on-premise use or in the cloud for monitoring, analytics, reporting or for other Enterprise applications.
 
-![DeltaV Edge Environment](./developer-guide/deltav-edge-architecture.png)
+![DeltaV Edge Environment](./images/deltav-edge-architecture.png)
 
 
 ## Secure Access to DeltaV System Data
