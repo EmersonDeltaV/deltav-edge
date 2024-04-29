@@ -56,7 +56,8 @@ The OPC Unified Architecture (OPC UA) interface is a cross-platform, open-source
 To get you started, here are additional info on Edge functionality, sample guides, and repositories:
 
 
-_insert links to sample repos here___
+-	[delta-edge-sdk](https://github.com/EmersonDeltaV/deltav-edge-sdk)
+-	[simple-dockerapp-dotnet6](https://github.com/EmersonDeltaV/simple-dockerapp-dotnet6)
 
 
 In-depth [Developer Guide](./developer-guide/developer-guide.md) covering:
