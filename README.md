@@ -39,29 +39,6 @@ To get you started, here are additional info on Edge functionality, sample guide
 -	[Vincent's code](https://8b1e38e9-9001-4711-950c-437a4310f80d.mock.pstmn.io)
 -	_Richard's code_
 
-### In-depth covering:
- 
-- DeltaV Edge Envirorment Architecture and System Components
-  
-- Types and Categories of data being gathered
-  
-- Accessing Data via REST API
-  
-- Accessing Data via OPC UA
-  
-- Connecting to commercial applications (e.g. Power BI, Excel)
-  
-- Connecting to Third Party Applications within Edge Environment (e.g. Grafana, Node-RED, JupyterLabs Notebook)
-  
-- Creating Edge Applications in Edge App Marketplace
-
-## Components
-
-DeltaV Edge Environment is a hardware and software solution composed of 4 major components:
-
-|  <p align="center"><img src="./images/data-provider.png" width=275></p>| <p align="center"><img src="./images/edge-node.png" width=275></p> | <p align="center"><img src="./images/edge-orchestration.png" width=275></p> | <p align="center"><img src="./images/data-diode.png" width=275></p> |
-|---|---|---|---|
-|  <p align="center"><a href="https://github.com/EmersonDeltaV/deltav-edge/blob/main/developer-guide/developer-guide.md#data-provider">**Data Provider**</p>| <p align="center"><a href="https://github.com/EmersonDeltaV/deltav-edge/blob/main/developer-guide/developer-guide.md#edge-node">**Edge Node**</p> | <p align="center"><a href="https://github.com/EmersonDeltaV/deltav-edge/blob/main/developer-guide/developer-guide.md#edge-orchestration">**Edge Orchestration**</p> |<p align="center"><a href="https://github.com/EmersonDeltaV/deltav-edge/blob/main/developer-guide/developer-guide.md#data-diode-optional">**Data Diode**</p> |
 
 ## Version 1.0 Specifications
 
