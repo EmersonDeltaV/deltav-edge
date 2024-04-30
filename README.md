@@ -4,61 +4,40 @@ The DeltaV Edge Environment is a platform that provides easy and secure access t
 
 ![DeltaV Edge Environment](./images/deltav-edge-architecture.png)
 
+### Easy and Secure Access to DeltaV System Data
 
-### Secure Access to DeltaV System Data
+Accessing plant data from a Distributed Control System such as DeltaV, can be a very complex task. Data resides down in the Control Network and thus bringing it outside to the Enterprise network requires multiple layers of secure processing. The DeltaV Edge Environment simplifies data access to plant data by handling all of the security transfer from across the different network layers.  
 
-Accessing plant data from a Distributed Control System such as DeltaV, can be a very complex task.
-Data resides down in the Control Network and thus bringing it outside to the Enterprise network requires multiple layers of secure processing.  
-The DeltaV Edge Environment simplifies data access to plant data by handling all of the security transfer from across the different network layers.  
+### Contextualized Data for Increased Usability
 
-### Data Contextualization
+Extracting control system data often strips away valuable information about relationships between data points – information that exists natively within control system configurations. This loss of embedded context makes it hard to understand how the data relates to the real-world process. DeltaV Edge Environment solves this by replicating DeltaV's configuration hierarchy alongside the data, preserving context and automatically reflecting control system changes – providing an ideal, out-of-the-box contextualization framework.
 
-Extracting control system data often strips away valuable information about relationships between data points – information that exists natively within control system configurations. This loss of embedded context makes it hard to understand how the data relates to the real-world process.
+### Data That Is Ready For Use
 
-DeltaV Edge Environment also manages the contextualization of data coming from the Control Network instead of by relating it to where it is being used, instead of simply presenting raw data values.  
+Data is available on the enterprise-level network, ready for access through widely used interfaces such as OPC UA and REST API.
 
-### Easy Application Deployment 
-
-The DeltaV Edge Environment also provides a common application platform that makes this contextual set of data available via industry standard protocols such as OPC UA and REST API, thus allowing more data consumption options through third-party applications such as Grafana, Node-RED, and JupyterLabs Notebook.  
-
-
-_The intent of this github page is to provide sample code, guides, and software development kits to encourage non-Emerson developers to create their own applications that can unlock the potential of having access to such wealth of plant data, such as data analytics, graphical representation, etc._
-
-
-Application Development features include:
-
--	Contextualized data available via OPC UA and REST API.
--	Online Cloud orchestration of Edge Nodes and Applications
--	Easy application management via Docker containers and Virtual Machines.
-
-
-DeltaV Edge Environment makes the data readily accessible to the user via industry standard REST API and OPC UA endpoints. 
-
-
-REST (REpresentational State Transfer) API is a web service that is based on HTTPS and provides data in JSON format, which is compatible with numerous modern data analytics applications, such as Grafana, Jupyter Notebook, Node-RED, Power BI, Excel, etc.
-
-The OPC Unified Architecture (OPC UA) interface is a cross-platform, open-source, standard for data exchange for industrial applications.  Data accessed via OPC UA  is managed via an OPC UA Client (e.g. UaExpert, Integration Objects) connected to the DeltaV Edge Environment OPC UA endpoints.
-
-|  <img src="./images/rest-api.png" width=425> | <img src="./images/opcua.png" width=425> |
+|  <img src="./images/rest-api.png" width=225> | <img src="./images/opcua.png" width=225> |
 |------|------|
 | <p align="center"> [REST API](developer-guide/rest-api/rest-api.md) </p>|<p align="center"> [OPC UA](developer-guide/opc-ua/opc-ua.md) </p>| 
 
+### A Data Sandbox for Execution and Experimentation
 
-### Use with Third Party Open Source Applications:
+The DeltaV Edge Environment also provides a common application platform that makes this contextual set of data available via industry standard protocols such as OPC UA and REST API, thus allowing more data consumption options through third-party applications such as Grafana, Node-RED, and JupyterLabs Notebook.  
 
-| <p align="center"><img src="./images/Grafana.png" width=275></p> | <p align="center"><img src="./images/Node-RED.png" width=275></p> | <p align="center"><img src="./images/JupyterNotebook.png" width=275></p> |
+#### Open-Source Applications
+| <p align="center"><img src="./images/Grafana.png" width=175></p> | <p align="center"><img src="./images/Node-RED.png" width=175></p> | <p align="center"><img src="./images/JupyterNotebook.png" width=175></p> |
 |---|---|---|
 | <p align="center">**Grafana**  </p> | <p align="center">**Node-RED**  </p> | <p align="center"><a href="https://github.com/EmersonDeltaV/jupyter-labs-for-edge">**Jupyter Notebook**</p> |
 
+#### Connect to Commercial Applications:
 
-https://github.com/EmersonDeltaV/jupyter-labs-for-edge
-
-### Connect to Commercial Applications:
-
-| <img src="./images/power-bi.png" width=80> | <img src="./images/microsoft-excel.png" width=100> | 
+| <img src="./images/power-bi.png" width=175> | <img src="./images/microsoft-excel.png" width=175> | 
 |----------|----------|
-| [Power BI](developer-guide/power-bi/power-bi.md)  | [Microsoft Excel](developer-guide/microsoft-excel/microsoft-excel.md)   |
+| <p align="center">[Power BI](developer-guide/power-bi/power-bi.md)  </p>  | <p align="center">[Microsoft Excel](developer-guide/microsoft-excel/microsoft-excel.md)  </p>   |
 
+### Low-touch Maintenance
+
+Software deployment, troubleshooting, updates and upgrades are executed remotely by Emerson, or users can choose to manage these functions themselves.
 
 ## Getting Started
 
