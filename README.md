@@ -8,11 +8,11 @@ The DeltaV Edge Environment is a platform that provides easy and secure access t
 
 Accessing plant data from a Distributed Control System such as DeltaV, can be a very complex task. Data resides down in the Control Network and thus bringing it outside to the Enterprise network requires multiple layers of secure processing. The DeltaV Edge Environment simplifies data access to plant data by handling all of the security transfer from across the different network layers.  
 
-### Contextualized Data for Increased Usability
+### Out-of-the-Box Contextualization that Reflects DeltaV Hierarchy
 
 Extracting control system data often strips away valuable information about relationships between data points – information that exists natively within control system configurations. This loss of embedded context makes it hard to understand how the data relates to the real-world process. DeltaV Edge Environment solves this by replicating DeltaV's configuration hierarchy alongside the data, preserving context and automatically reflecting control system changes – providing an ideal, out-of-the-box contextualization framework.
 
-### Data That Is Ready For Use
+### Secure Sandbox to Deploy and Run Applications
 
 Data is available on the enterprise-level network, ready for access through widely used interfaces such as OPC UA and REST API.
 
@@ -20,20 +20,11 @@ Data is available on the enterprise-level network, ready for access through wide
 |------|------|
 | <p align="center"> [REST API](developer-guide/rest-api/rest-api.md) </p>|<p align="center"> [OPC UA](developer-guide/opc-ua/opc-ua.md) </p>| 
 
-### A Data Sandbox for Execution and Experimentation
+These industry standard protocols provides an easy and secure way to access the data and connect to analytical applications and visualizations such as:
 
-The DeltaV Edge Environment also provides a common application platform that makes this contextual set of data available via industry standard protocols such as OPC UA and REST API, thus allowing more data consumption options through third-party applications such as Grafana, Node-RED, and JupyterLabs Notebook.  
-
-#### Open-Source Applications
-| <p align="center"><img src="./images/Grafana.png" width=175></p> | <p align="center"><img src="./images/Node-RED.png" width=175></p> | <p align="center"><img src="./images/JupyterNotebook.png" width=175></p> |
-|---|---|---|
-| <p align="center">**Grafana**  </p> | <p align="center">**Node-RED**  </p> | <p align="center"><a href="https://github.com/EmersonDeltaV/jupyter-labs-for-edge">**Jupyter Notebook**</p> |
-
-#### Connect to Commercial Applications:
-
-| <img src="./images/power-bi.png" width=175> | <img src="./images/microsoft-excel.png" width=175> | 
-|----------|----------|
-| <p align="center">[Power BI](developer-guide/power-bi/power-bi.md)  </p>  | <p align="center">[Microsoft Excel](developer-guide/microsoft-excel/microsoft-excel.md)  </p>   |
+| <p align="center"><img src="./images/Grafana.png" width=125></p> | <p align="center"><img src="./images/Node-RED.png" width=125></p> | <p align="center"><img src="./images/JupyterNotebook.png" width=125></p> | <img src="./images/power-bi.png" width=125> | <img src="./images/microsoft-excel.png" width=125> | 
+|---|---|---|----------|----------|
+| <p align="center">**Grafana**  </p> | <p align="center">**Node-RED**  </p> | <p align="center"><a href="https://github.com/EmersonDeltaV/jupyter-labs-for-edge">**Jupyter Notebook**</p> | <p align="center">[Power BI](developer-guide/power-bi/power-bi.md)  </p>  | <p align="center">[Microsoft Excel](developer-guide/microsoft-excel/microsoft-excel.md)  </p>   |
 
 ### Low-touch Maintenance
 
@@ -66,6 +57,8 @@ To get you started, here are additional info on Edge functionality, sample guide
 - Creating Edge Applications in Edge App Marketplace
 
 ## Components
+
+DeltaV Edge Environment is composed of 4 major components, click the link below to learn more:
 
 |  <p align="center"><img src="./images/data-provider.png" width=275></p>| <p align="center"><img src="./images/edge-node.png" width=275></p> | <p align="center"><img src="./images/edge-orchestration.png" width=275></p> | <p align="center"><img src="./images/data-diode.png" width=275></p> |
 |---|---|---|---|
