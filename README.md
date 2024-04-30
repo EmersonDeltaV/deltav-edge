@@ -55,7 +55,7 @@ https://github.com/EmersonDeltaV/jupyter-labs-for-edge
 
 ## Connect to Commercial Applications:
 
-| <img src="./images/Grafana.png" width=80> | <img src="./images/Node-RED.png" width=80> | 
+| <img src="./images/power-bi.png" width=80> | <img src="./images/microsoft-excel.png" width=100> | 
 |----------|----------|
 | [Power BI](developer-guide/power-bi/power-bi.md)  | [Microsoft Excel](developer-guide/microsoft-excel/microsoft-excel.md)   |
 
