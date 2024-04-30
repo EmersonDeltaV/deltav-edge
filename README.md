@@ -74,6 +74,7 @@ DeltaV Edge Environment is a hardware and software solution composed of 4 major 
 | Alarms and Events Handling | 100 events/second, 4K peak alarm burst handling |
 | Data Types Supported | DeltaV S88 Plant Hierarchy, Configuration Data, Process Values, Alarms & Events, SIS Module Data |
 | Store and Forward | Buffers data up to 48 hours |
+| Edge Node's Operating System | [EVE-OS v9.4.6-lts](https://github.com/EmersonDeltaV/lf-edge-eve) (Linux-based OS)|
 
 ## Additional Resources 
 
@@ -87,6 +88,3 @@ This project welcomes contributions, suggestions, and feedback. All contribution
 
 For more information on how to contribute to DeltaV Edge Environment, please read [CONTRIBUTING.md](CONTRIBUTING.md]).
 
-
-## References
-- EDGE is based on eve-os [v9.4.6-lts](https://github.com/EmersonDeltaV/lf-edge-eve)
