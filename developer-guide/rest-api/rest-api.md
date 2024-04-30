@@ -191,3 +191,11 @@ There are different categories of data that can be accessed through REST API:
 **Alarms & Events** data refer to any noteworthy occurrence in your process or system. These provide records of events that you want the system to react to, or to be brought to the operator's attention. 
  
 For more detailed instructions, please refer to [REST API Acess Data](./rest-api-data-access/rest-api-access-data.md)
+
+# Mock Server
+
+Please refer to the link below for the mock server. You can use this to explore our REST APIs.
+
+`https://8b1e38e9-9001-4711-950c-437a4310f80d.mock.pstmn.io/edge/`
+
+Please note that the current mock server is limited only to 1k usage a month.
