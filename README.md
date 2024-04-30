@@ -62,7 +62,7 @@ DeltaV Edge Environment is a hardware and software solution composed of 4 major 
 
 |  <p align="center"><img src="./images/data-provider.png" width=275></p>| <p align="center"><img src="./images/edge-node.png" width=275></p> | <p align="center"><img src="./images/edge-orchestration.png" width=275></p> | <p align="center"><img src="./images/data-diode.png" width=275></p> |
 |---|---|---|---|
-|  <p align="center"><a href="">**Data Provider**</p>| <p align="center"><a href="">**Edge Node**</p> | <p align="center"><a href="">**Edge Orchestration**</p> |<p align="center"><a href="">**Data Diode**</p> |
+|  <p align="center"><a href="https://github.com/EmersonDeltaV/deltav-edge/blob/main/developer-guide/developer-guide.md#data-provider">**Data Provider**</p>| <p align="center"><a href="https://github.com/EmersonDeltaV/deltav-edge/blob/main/developer-guide/developer-guide.md#edge-node">**Edge Node**</p> | <p align="center"><a href="https://github.com/EmersonDeltaV/deltav-edge/blob/main/developer-guide/developer-guide.md#edge-orchestration">**Edge Orchestration**</p> |<p align="center"><a href="https://github.com/EmersonDeltaV/deltav-edge/blob/main/developer-guide/developer-guide.md#data-diode-optional">**Data Diode**</p> |
 
 ## Version 1.0 Specifications
 
