@@ -68,9 +68,10 @@ To get you started, here are additional info on Edge functionality, sample guide
 -	[delta-edge-sdk](https://github.com/EmersonDeltaV/deltav-edge-sdk)
 -	[simple-dockerapp-dotnet6](https://github.com/EmersonDeltaV/simple-dockerapp-dotnet6)
 -	[Vincent's code](https://8b1e38e9-9001-4711-950c-437a4310f80d.mock.pstmn.io)
+-	_Richard's code_
 
 
-In-depth [Developer Guide](./developer-guide/developer-guide.md) covering:
+## In-depth [Developer Guide](./developer-guide/developer-guide.md) covering:
  
 - DeltaV Edge Envirorment Architecture and System Components
   
