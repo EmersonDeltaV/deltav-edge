@@ -59,12 +59,6 @@ https://github.com/EmersonDeltaV/jupyter-labs-for-edge
 |----------|----------|
 | [Power BI](developer-guide/power-bi/power-bi.md)  | [Microsoft Excel](developer-guide/microsoft-excel/microsoft-excel.md)   |
 
-## Components
-
-
-|  <p align="center"><img src="./images/data-provider.png" width=275></p>| <p align="center"><img src="./images/edge-node.png" width=275></p> | <p align="center"><img src="./images/edge-orchestration.png" width=275></p> | <p align="center"><img src="./images/data-diode.png" width=275></p> |
-|---|---|---|---|
-|  <p align="center"><a href="">**Data Provider**</p>| <p align="center"><a href="">**Edge Node**</p> | <p align="center"><a href="">**Edge Orchestration**</p> |<p align="center"><a href="">**Data Diode**</p> |
 
 ## Getting Started
 
@@ -91,7 +85,29 @@ To get you started, here are additional info on Edge functionality, sample guide
 - Connecting to Third Party Applications within Edge Environment (e.g. Grafana, Node-RED, JupyterLabs Notebook)
   
 - Creating Edge Applications in Edge App Marketplace
-  
+
+## Components
+
+|  <p align="center"><img src="./images/data-provider.png" width=275></p>| <p align="center"><img src="./images/edge-node.png" width=275></p> | <p align="center"><img src="./images/edge-orchestration.png" width=275></p> | <p align="center"><img src="./images/data-diode.png" width=275></p> |
+|---|---|---|---|
+|  <p align="center"><a href="">**Data Provider**</p>| <p align="center"><a href="">**Edge Node**</p> | <p align="center"><a href="">**Edge Orchestration**</p> |<p align="center"><a href="">**Data Diode**</p> |
+
+## Version 1.0 Specifications
+
+|Specification|Description|
+|---|---|
+| Compatibility | DeltaV v14.LTS, v14.FP1, v14.FP2, v14.FP3, and v15.LTS |
+| Number of Supported Data Items | 20k, 100k, 300k |
+| Supported Sampling Periods | 1s, 2s, 5s, 10s, 60s |
+| Alarms and Events Handling | 100 events/second, 4K peak alarm burst handling |
+| Data Types Supported | DeltaV S88 Plant Hierarchy, Configuration Data, Process Values, Alarms & Events, SIS Module Data |
+| Store and Forward | Buffers data up to 48 hours |
+
+## Additional Resources 
+
+* [DeltaV Edge Environment Product Page](https://emerson.com/deltavedge)
+* [DeltaV Edge Environment Product Data Sheet](https://www.emerson.com/documents/automation/product-data-sheet-deltav-edge-environment-deltav-en-9573950.pdf)
+* [DeltaV Edge Environment Solution and Architecture Overview](https://www.youtube.com/watch?v=DKLijP0tvzc)
 
 ## Contributing
 
