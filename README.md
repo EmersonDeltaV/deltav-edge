@@ -5,19 +5,19 @@ The DeltaV Edge Environment is a platform that provides easy and secure access t
 ![DeltaV Edge Environment](./images/deltav-edge-architecture.png)
 
 
-## Secure Access to DeltaV System Data
+### Secure Access to DeltaV System Data
 
 Accessing plant data from a Distributed Control System such as DeltaV, can be a very complex task.
 Data resides down in the Control Network and thus bringing it outside to the Enterprise network requires multiple layers of secure processing.  
 The DeltaV Edge Environment simplifies data access to plant data by handling all of the security transfer from across the different network layers.  
 
-## Data Contextualization
+### Data Contextualization
 
 Extracting control system data often strips away valuable information about relationships between data points – information that exists natively within control system configurations. This loss of embedded context makes it hard to understand how the data relates to the real-world process.
 
 DeltaV Edge Environment also manages the contextualization of data coming from the Control Network instead of by relating it to where it is being used, instead of simply presenting raw data values.  
 
-## Easy Application Deployment 
+### Easy Application Deployment 
 
 The DeltaV Edge Environment also provides a common application platform that makes this contextual set of data available via industry standard protocols such as OPC UA and REST API, thus allowing more data consumption options through third-party applications such as Grafana, Node-RED, and JupyterLabs Notebook.  
 
@@ -44,7 +44,7 @@ The OPC Unified Architecture (OPC UA) interface is a cross-platform, open-source
 | <p align="center"> [REST API](developer-guide/rest-api/rest-api.md) </p>|<p align="center"> [OPC UA](developer-guide/opc-ua/opc-ua.md) </p>| 
 
 
-## Use with Third Party Open Source Applications:
+### Use with Third Party Open Source Applications:
 
 | <p align="center"><img src="./images/Grafana.png" width=275></p> | <p align="center"><img src="./images/Node-RED.png" width=275></p> | <p align="center"><img src="./images/JupyterNotebook.png" width=275></p> |
 |---|---|---|
@@ -53,15 +53,20 @@ The OPC Unified Architecture (OPC UA) interface is a cross-platform, open-source
 
 https://github.com/EmersonDeltaV/jupyter-labs-for-edge
 
-## Connect to Commercial Applications:
+### Connect to Commercial Applications:
 
 | <img src="./images/power-bi.png" width=80> | <img src="./images/microsoft-excel.png" width=100> | 
 |----------|----------|
 | [Power BI](developer-guide/power-bi/power-bi.md)  | [Microsoft Excel](developer-guide/microsoft-excel/microsoft-excel.md)   |
 
+## Components
 
 
-# Getting Started
+|  <p align="center"><img src="./images/data-provider.png" width=275></p>| <p align="center"><img src="./images/edge-node.png" width=275></p> | <p align="center"><img src="./images/edge-orchestration.png" width=275></p> | <p align="center"><img src="./images/data-diode.png" width=275></p> |
+|---|---|---|---|
+|  <p align="center"><a href="">**Data Provider**</p>| <p align="center"><a href="">**Edge Node**</p> | <p align="center"><a href="">**Edge Orchestration**</p> |<p align="center"><a href="">**Data Diode**</p> |
+
+## Getting Started
 
 To get you started, here are additional info on Edge functionality, sample guides, and repositories:
 
@@ -71,7 +76,7 @@ To get you started, here are additional info on Edge functionality, sample guide
 -	_Richard's code_
 
 
-## In-depth [Developer Guide](./developer-guide/developer-guide.md) covering:
+### In-depth [Developer Guide](./developer-guide/developer-guide.md) covering:
  
 - DeltaV Edge Envirorment Architecture and System Components
   
@@ -88,12 +93,12 @@ To get you started, here are additional info on Edge functionality, sample guide
 - Creating Edge Applications in Edge App Marketplace
   
 
-# Contributing
+## Contributing
 
 This project welcomes contributions, suggestions, and feedback. All contributions, suggestions, and feedback you submit are accepted under the Project's license. You represent that if you do not own copyright in the code that you have the authority to submit it under the Project's license. All feedback, suggestions, or contributions are not confidential.
 
 For more information on how to contribute to DeltaV Edge Environment, please read [CONTRIBUTING.md](CONTRIBUTING.md]).
 
 
-# References
+## References
 - EDGE is based on eve-os [v9.4.6-lts](https://github.com/EmersonDeltaV/lf-edge-eve)
