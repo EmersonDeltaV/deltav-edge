@@ -58,6 +58,7 @@ To get you started, here are additional info on Edge functionality, sample guide
 * [DeltaV Edge Environment Product Page](https://emerson.com/deltavedge)
 * [DeltaV Edge Environment Product Data Sheet](https://www.emerson.com/documents/automation/product-data-sheet-deltav-edge-environment-deltav-en-9573950.pdf)
 * [DeltaV Edge Environment Solution and Architecture Overview](https://www.youtube.com/watch?v=DKLijP0tvzc)
+* [DeltaV Edge Environment System Components](system-components.md)
 
 ## Contributing
 
