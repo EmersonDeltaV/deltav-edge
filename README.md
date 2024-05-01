@@ -24,7 +24,7 @@ These industry standard protocols provides an easy and secure way to access the 
 
 |<img src="./images/Grafana.png" width=125>| <img src="./images/Node-RED.png" width=125>| <img src="./images/JupyterNotebook.png" width=125> | <img src="./images/power-bi.png" width=125> | <img src="./images/microsoft-excel.png" width=125> | 
 |---|---|---|----------|----------|
-| <p align="center"><a href="">Grafana</p> | <p align="center"><a href="">Node-RED</p> | <p align="center"><a href="https://github.com/EmersonDeltaV/jupyter-labs-for-edge">Jupyter Notebook</p> | <p align="center">[Power BI](developer-guide/power-bi/power-bi.md)</p>  | <p align="center">[Microsoft Excel](developer-guide/microsoft-excel/microsoft-excel.md)</p>   |
+| <p align="center">Grafana</p> | <p align="center">Node-RED</p> | <p align="center"><a href="https://github.com/EmersonDeltaV/jupyter-labs-for-edge">Jupyter Notebook</p> | <p align="center">[Power BI](developer-guide/power-bi/power-bi.md)</p>  | <p align="center">[Microsoft Excel](developer-guide/microsoft-excel/microsoft-excel.md)</p>   |
 
 ### Low-touch Maintenance
 
@@ -34,10 +34,11 @@ Software deployment, troubleshooting, updates and upgrades are executed remotely
 
 To get you started, here are additional info on Edge functionality, sample guides, and repositories:
 
--	[delta-edge-sdk](https://github.com/EmersonDeltaV/deltav-edge-sdk)
--	[simple-dockerapp-dotnet6](https://github.com/EmersonDeltaV/simple-dockerapp-dotnet6)
--	[Vincent's code](https://8b1e38e9-9001-4711-950c-437a4310f80d.mock.pstmn.io)
--	_Richard's code_
+-	[delta-edge-sdk](https://github.com/EmersonDeltaV/deltav-edge-sdk) -- _C# Edge REST API Client SDK implemented via HttpClient to simplify Edge REST API consumption_
+
+-	[simple-dockerapp-dotnet6](https://github.com/EmersonDeltaV/simple-dockerapp-dotnet6) -- _basic ASP.NET Core 6.0 web app created as a docker image that can be published into the DeltaV Edge Environment_
+
+-	[edge-watch-it](https://github.com/EmersonDeltaV/simple-dockerapp-dotnet6) -- _C# sample app that demonstrates basic Edge functionalities such as User Authentication, connection, and runtime value updates._ 
 
 ## Components
 
@@ -45,8 +46,9 @@ DeltaV Edge Environment is a hardware and software solution composed of 4 major 
 
 |  <p align="center"><img src="./images/data-provider.png" width=275></p>| <p align="center"><img src="./images/edge-node.png" width=275></p> | <p align="center"><img src="./images/edge-orchestration.png" width=275></p> | <p align="center"><img src="./images/data-diode.png" width=275></p> |
 |---|---|---|---|
-|  <p align="center"><a href="https://github.com/EmersonDeltaV/deltav-edge/blob/main/developer-guide/developer-guide.md#data-provider">**Data Provider**</p>| <p align="center"><a href="https://github.com/EmersonDeltaV/deltav-edge/blob/main/developer-guide/developer-guide.md#edge-node">**Edge Node**</p> | <p align="center"><a href="https://github.com/EmersonDeltaV/deltav-edge/blob/main/developer-guide/developer-guide.md#edge-orchestration">**Edge Orchestration**</p> |<p align="center"><a href="https://github.com/EmersonDeltaV/deltav-edge/blob/main/developer-guide/developer-guide.md#data-diode-optional">**Data Diode**</p> |
+|  <p align="center">[Data Provider](system-components.md#data-provider)</p>| <p align="center">[Edge Node](system-components.md#edge-node)</p> | <p align="center">[Edge Orchestration](system-components.md#edge-orchestration)</p> |<p align="center">[Data Diode](system-components.md#data-diode-optional)</p> |
 
+[[Data Provider](system-components.md#data-provider)
 
 
 ## Additional Resources 
@@ -55,6 +57,7 @@ DeltaV Edge Environment is a hardware and software solution composed of 4 major 
 * [DeltaV Edge Environment Product Data Sheet](https://www.emerson.com/documents/automation/product-data-sheet-deltav-edge-environment-deltav-en-9573950.pdf)
 * [DeltaV Edge Environment Solution and Architecture Overview](https://www.youtube.com/watch?v=DKLijP0tvzc)
 * [DeltaV Edge Environment System Components](system-components.md)
+* [DeltaV Edge Environment Release Info](edge-release-info.md)
 
 ## Contributing
 
