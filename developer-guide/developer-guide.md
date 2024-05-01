@@ -4,20 +4,17 @@ For more detailed info on DeltaV Edge Environment Architecture and System Compon
 
 # Development Basics
 
-## Access DeltaV Data on the Edge Node through REST API
-
-REST (representational state transfer) API is a web service that is based on HTTPS and provides data in JSON format, which are both compatible to numerous modern data analytics applications, such as Grafana, Jupyter Notebook, Node-RED, PowerBI, Excel, etc.
+DeltaV Edge Environment makes DeltaV data accessible to the Plant and Enterprise networks via industry standard interfaces such as REST API and OPC UA.
 
 For more details on how to access data via REST API, please see more detailed instructions in [REST API Guide](./rest-api/rest-api.md)
+For more details on how to access data via OPC UA, please see more detailed instructions in: [OPC UA Guide](./opc-ua/opc-ua.md)
 
+You can also connect these endpoints to various analytical applications and visualizations such as:
 
-## Access DeltaV Data on the Edge Node using OPC UA
+- <a href="https://github.com/EmersonDeltaV/jupyter-labs-for-edge">Jupyter Notebook
+- [Power BI](developer-guide/power-bi/power-bi.md)
+- [Microsoft Excel](developer-guide/microsoft-excel/microsoft-excel.md)
 
-The OPC Unified Architecture (OPC UA) interface is a cross-platform, open-source, standard for data exchange for industrial applications. 
-
-For more details on how to access data via OPC UA, please see more detailed instructions in:   [OPC UA Guide](./opc-ua/opc-ua.md)
-
-# Connect via Commercial and Open Source Appications
 
 
 
