@@ -67,7 +67,7 @@ Listed below are DeltaV objects/entities coming from Data Provider:
 DeltaV Edge Environment uses Dell PowerEdge R650xs Rack Mounted Server
 
 
-![Figure 1-1. DeltaV Edge Server (Dell PowerEdge R650xs Rack Mounted Server)](edge-server.png)
+![Figure 1-1. DeltaV Edge Server (Dell PowerEdge R650xs Rack Mounted Server)](images/edge-server.png)
 
 
 |  Edge Server Hardware Specifications  |
@@ -89,7 +89,7 @@ DeltaV Edge Environment uses Dell PowerEdge R650xs Rack Mounted Server
 
 The OPSWAT NetWall Optical Diode. 
  
-<img src="opswat-data-diode.png" width=400>
+<img src="images/opswat-data-diode.png" width=400>
 
 For the DeltaV Edge Environment, NetWall 100MB and 1GB data transfer rates are supported options. This solution enables you to connect the Data Provider directly to the Edge Node for a secure and simplified IT network solution.
 
