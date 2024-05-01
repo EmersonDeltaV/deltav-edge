@@ -22,9 +22,9 @@ Data is available on the enterprise-level network, ready for access through wide
 
 These industry standard protocols provides an easy and secure way to access the data and connect to analytical applications and visualizations such as:
 
-| <p align="center"><img src="./images/Grafana.png" width=125></p> | <p align="center"><img src="./images/Node-RED.png" width=125></p> | <p align="center"><img src="./images/JupyterNotebook.png" width=125></p> | <img src="./images/power-bi.png" width=125> | <img src="./images/microsoft-excel.png" width=125> | 
+|<img src="./images/Grafana.png" width=125>| <img src="./images/Node-RED.png" width=125>| <img src="./images/JupyterNotebook.png" width=125> | <img src="./images/power-bi.png" width=125> | <img src="./images/microsoft-excel.png" width=125> | 
 |---|---|---|----------|----------|
-| <p align="center">**Grafana**  </p> | <p align="center">**Node-RED**  </p> | <p align="center"><a href="https://github.com/EmersonDeltaV/jupyter-labs-for-edge">**Jupyter Notebook**</p> | <p align="center">[Power BI](developer-guide/power-bi/power-bi.md)  </p>  | <p align="center">[Microsoft Excel](developer-guide/microsoft-excel/microsoft-excel.md)  </p>   |
+| <p align="center"><p align="center"><a href="">**Grafana**  </p> | <p align="center"><a href="">**Node-RED**  </p> | <p align="center"><a href="https://github.com/EmersonDeltaV/jupyter-labs-for-edge">**Jupyter Notebook**</p> | <p align="center">[Power BI](developer-guide/power-bi/power-bi.md)  </p>  | <p align="center">[Microsoft Excel](developer-guide/microsoft-excel/microsoft-excel.md)  </p>   |
 
 ### Low-touch Maintenance
 
