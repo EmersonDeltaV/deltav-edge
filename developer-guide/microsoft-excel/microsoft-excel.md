@@ -7,23 +7,23 @@ Here are step-by-step instructions for setting up your environment and configuri
     - If you already have the certificate, simply download it and proceed to install the DER Certificate.
     - In case the certificate is not available:
       
-        1. Access your Edge Manager portal: Edge Manager
-        2. Navigate to the "Certificates" section.  
-        <img src="images/edge-admin-certificates.png" width=300><p>
+        1. Log in to **DeltaV Edge Manager**. 
+        2. Navigate to the **"Certificates"** section.  
+        <img src="images/edge-admin-certificates.png" width=800><br>
         3. Generate the Rest API Certificate.  
-        <img src="images/rest-api-certificate.png" width=300><p>
+        <img src="images/rest-api-certificate.png" width=800><br>
         4. Download the certificate.
         5. Install it on your system.  
-        <img src="images/install-rest-api-cert.png" width=300><p>
+        <img src="images/install-rest-api-cert.png" width=500><br>
 
 
 3. **Configure Microsoft Excel for Rest API Access**:
-    - Open Microsoft Excel.  
+    - Open **Microsoft Excel**.  
     - Go to **Home > Data > From Web**.  
-    <img src="images/ms-excel-get-data.png" width=300><p>
+    <img src="images/ms-excel-get-data.png" width=800><br>
     - A form will appear.  
-    <img src="images/ms-excel-from-web.png" width=300><p>
-    - Fill in the "URL Parts" with the appropriate details (e.g., `https://{edge ip}/edge/api/v1/ae`).
+    <img src="images/ms-excel-from-web.png" width=800><br>
+    - Fill in the **"URL Parts"** with the appropriate details (e.g., `https://{edge ip}/edge/api/v1/ae`).
 
 4. **Set HTTP Request Header Parameters**:
     - Add an HTTP request header parameter:
