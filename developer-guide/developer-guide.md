@@ -34,8 +34,6 @@ You can also develop custom applications that can be packaged as containers and 
 -	[simple-dockerapp-dotnet6](https://github.com/EmersonDeltaV/simple-dockerapp-dotnet6) -- _basic ASP.NET Core 6.0 web app created as a docker image that can be published into the DeltaV Edge Environment_
 
 
-More details on setting up Edge Marketplace Applications can be found in [Edge Marketplace Application Development Guide](edge-applications.md)
-
 
 
 
