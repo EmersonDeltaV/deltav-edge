@@ -31,6 +31,8 @@ The Edge Node hosts and executes a series of software applications including dat
 
 
 The Edge Environment’s Edge Data Service receives data from the Data Provider, recognizes the data characteristics, and pushes the data into a specific database or database area. The Edge Environment’s internal database temporarily caches all received data for up to one year. 
+
+<img src="images/edge-node-detailed2.png" width=1000>
  
 Both the runtime data and the cached data are accessible through the Edge Environment’s egress interfaces. These interfaces include OPC UA and REST API. The OPC UA server provides access to DeltaV runtime parameters, alarms and events, and cached data and also supports multiple aggregation methods to simplify comprehensive data queries. The Edge Environment’s REST API is a web service that is based on HTTPS and provides data in JSON format.  
  
