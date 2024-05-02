@@ -27,7 +27,7 @@ You can easily configure the Data Provider to receive alarms and events, subscri
 
 The Edge Node hosts and executes a series of software applications including data services, interfaces, databases, and analytical applications to create an on-demand digital twin replicating both DeltaV system data and the configuration hierarchy for data contextualization. 
 
-<img src="images/edge-node-detailed.png" width=350>
+<p align="center"><img src="images/edge-node-detailed.png" width=300 ></p>
 
 
 The Edge Environment’s Edge Data Service receives data from the Data Provider, recognizes the data characteristics, and pushes the data into a specific database or database area. The Edge Environment’s internal database temporarily caches all received data for up to one year. 
@@ -69,7 +69,7 @@ For additional security, you can deploy an optional data diode between the Data 
 
 OPSWAT's MetaDefender Optical Diode is the tested and validated solution for users that need to egress data from the DeltaV system through the DeltaV Edge Environment using a data diode. The MetaDefender Optical Diode reliably transfers data over a hardware enforced one-way communications link enabling secure data sharing between isolated networks. The Data Diode supports a wide range of industrial protocols, is highly scalable, and can transfer real-time and historical data while ensuring the security and integrity of your critical assets.
 
-<img src="images/opswat-data-diode.png" width=500>
+<p align="center"><img src="images/opswat-data-diode.png" width=500></p>
 
 For more detailed info, capabilities, and specifications for the latest DeltaV Edge Environment Release, please check [DeltaV Edge Environment Release Info](edge-release-info.md) 
 
