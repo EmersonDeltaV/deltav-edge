@@ -1,65 +1,20 @@
 
 # DeltaV Edge Environment v1.0 Release Info
 
-## Supported DeltaV Versions
-
-- 14.LTS, 14.FP1, 14.FP2, 14.FP3, 15.LTS
-
-## Data Provider
-
-Data Provider streams Hierarchy and Configuration values, Process Values, and Alarms & Events from the DeltaV system to the Edge Node via HTTPS.
-It also comes with the Data Provider Configuration Tool (used to configure parameter data subscription).
-
-Listed below are DeltaV objects/entities coming from Data Provider:
-
-- System
-
-- Area
-
-- Process Cell
-
-- Unit Module
-
-- Equipment Module
-
-- Control Module
-
-- Function Block
-
-- Fieldbus Shadow Block
-
-- Parameter
-
-- Alarm
-
-- Named Set
-
-- SIS Module
-
-- Named State
-
-- Engineering Unit
-
-- SIS Named Set
-
-- SIS Named State
-
-- Folder
-
-- Field
-
-- #Properties
-
-- #Config
 
 
-|  Performance and System Scalability |
-| ------------------------------------------ | 
-| Parameter Data	30,000 data-items/second |
-| 300,000 unique data-items |
-| Alarms and Events	100 events/second, up to 4,000 peak event spike without loss |
-| Transportation	HTTPS |
- 
+## Version 1.0 Specifications
+
+|Specification|Description|
+|---|---|
+| Compatibility | DeltaV v14.LTS, v14.FP1, v14.FP2, v14.FP3, and v15.LTS |
+| Number of Supported Data Items | 20k, 100k, 300k |
+| Supported Sampling Periods | 1s, 2s, 5s, 10s, 60s |
+| Alarms and Events Handling | 100 events/second, 4K peak alarm burst handling |
+| Data Types Supported | DeltaV S88 Plant Hierarchy, Configuration Data, Process Values, Alarms & Events, SIS Module Data |
+| DeltaV Objects/Entities Supported | System, Area, Process Cell, Unit Module, Equipment Module, Control Module, Function Block, Fieldbus Shadow Block, Parameter, Alarm, Named Set, SIS Module, Named State, Engineering Unit, SIS Named Set, SIS Named State, Folder, Field, #Properties, #Config |
+| Store and Forward | Buffers data up to 48 hours |
+| Edge Node's Operating System | [EVE-OS v9.4.6-lts](https://github.com/EmersonDeltaV/lf-edge-eve) (Linux-based OS)|
 
 
 ## Edge Node	

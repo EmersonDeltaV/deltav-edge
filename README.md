@@ -38,7 +38,7 @@ To get you started, here are additional info on Edge functionality, sample guide
 
 -	[simple-dockerapp-dotnet6](https://github.com/EmersonDeltaV/simple-dockerapp-dotnet6) -- _basic ASP.NET Core 6.0 web app created as a docker image that can be published into the DeltaV Edge Environment_
 
--	[edge-watch-it](https://github.com/EmersonDeltaV/simple-dockerapp-dotnet6) -- _C# sample app that demonstrates basic Edge functionalities such as REST API Authentication, connection, and runtime value updates._ 
+-	[edge-watch-it](https://github.com/EmersonDeltaV/simple-dockerapp-dotnet6) -- _C# sample app that demonstrates basic Edge functionalities such as User Authentication, connection, and runtime value updates._ 
 
 ## Components
 
@@ -47,6 +47,8 @@ DeltaV Edge Environment is a hardware and software solution composed of 4 major 
 |  <p align="center"><img src="./images/data-provider.png" width=275></p>| <p align="center"><img src="./images/edge-node.png" width=275></p> | <p align="center"><img src="./images/edge-orchestration.png" width=275></p> | <p align="center"><img src="./images/data-diode.png" width=275></p> |
 |---|---|---|---|
 |  <p align="center">[Data Provider](system-components.md#data-provider)</p>| <p align="center">[Edge Node](system-components.md#edge-node)</p> | <p align="center">[Edge Orchestration](system-components.md#edge-orchestration)</p> |<p align="center">[Data Diode](system-components.md#data-diode-optional)</p> |
+
+[[Data Provider](system-components.md#data-provider)
 
 
 ## Additional Resources 
@@ -61,5 +63,5 @@ DeltaV Edge Environment is a hardware and software solution composed of 4 major 
 
 This project welcomes contributions, suggestions, and feedback. All contributions, suggestions, and feedback you submit are accepted under the Project's license. You represent that if you do not own copyright in the code that you have the authority to submit it under the Project's license. All feedback, suggestions, or contributions are not confidential.
 
-For more information on how to contribute to DeltaV Edge Environment, please read [CONTRIBUTING.md](CONTRIBUTING.md]).
+For more information on how to contribute to DeltaV Edge Environment, please read [CONTRIBUTING.md](CONTRIBUTING.md).
 
