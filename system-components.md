@@ -16,7 +16,7 @@ The DeltaV Edge Environment solution consists of four major product components:
 
 The Data Provider resides on a dedicated DeltaV Application Station. It reads alarms and events information, real-time module and function block parameters, and sends all of the data to the Edge Environment on a continuous basis.
 
-<img src="images/edge-data-provider.png" width=350>
+<img src="images/edge-data-provider.png" width=1000>
 
 In addition, for configured automatic FHX exports, the Data Provider constantly accesses the latest configuration hierarchy based on the DeltaV configuration file and sends the configuration data to the Edge Environment. The Data Provider also consolidates different data types and streams into one outbound data flow.
 
