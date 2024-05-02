@@ -32,7 +32,7 @@ DeltaV Edge Environment uses Dell PowerEdge R650xs Rack Mounted Server
 | o	Ethernet ports: 6                                                                             | 
 | o	Includes drop-in/stab-in combo rails without cable management arm                             | 
 | o	1U, Height 42.8mm (1.68in), Width 482mm (18.97in), Depth 748.79mm (29.47in)                   |  
-| o	OS: EVE-OS                                                                                    |
+| o	OS: [EVE-OS v9.4.6-lts](https://github.com/EmersonDeltaV/lf-edge-eve) (Linux-based OS)                                                                         |
 
 ## Data Diode	(Optional)
 
