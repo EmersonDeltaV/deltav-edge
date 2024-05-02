@@ -1,5 +1,5 @@
 
-## DeltaV Edge Environment Architecture
+# DeltaV Edge Environment System Components
 
 The DeltaV Edge Environment provides access to DeltaV system data through a unified solution architecture while satisfying IT cybersecurity, communications, and application requirements—all without disrupting the DeltaV system. 
 
@@ -8,14 +8,9 @@ The DeltaV Edge Environment provides access to DeltaV system data through a unif
 
 The DeltaV Edge Environment solution consists of four major product components:
 
--	Data Provider
-
--	Edge Node 
-
--	Edge Orchestration 
-
--	Data Diode (optional)
-
+|  <p align="center"><img src="./images/data-provider.png" width=275></p>| <p align="center"><img src="./images/edge-node.png" width=275></p> | <p align="center"><img src="./images/edge-orchestration.png" width=275></p> | <p align="center"><img src="./images/data-diode.png" width=275></p> |
+|---|---|---|---|
+|  <p align="center">[Data Provider](system-components.md#data-provider)</p>| <p align="center">[Edge Node](system-components.md#edge-node)</p> | <p align="center">[Edge Orchestration](system-components.md#edge-orchestration)</p> |<p align="center">[Data Diode](system-components.md#data-diode-optional)</p> |
 
 ## Data Provider
 
