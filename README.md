@@ -48,8 +48,6 @@ DeltaV Edge Environment is a hardware and software solution composed of 4 major 
 |---|---|---|---|
 |  <p align="center">[Data Provider](system-components.md#data-provider)</p>| <p align="center">[Edge Node](system-components.md#edge-node)</p> | <p align="center">[Edge Orchestration](system-components.md#edge-orchestration)</p> |<p align="center">[Data Diode](system-components.md#data-diode-optional)</p> |
 
-[[Data Provider](system-components.md#data-provider)
-
 
 ## Additional Resources 
 
