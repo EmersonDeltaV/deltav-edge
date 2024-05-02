@@ -57,6 +57,10 @@ Edge Orchestration can:
 
 -	configure network setups, update operating systems, and perform system-wide backups. 
 
+The Edge Orchestration comes with a Global Marketplace featuring curated applications from open-source, our alliance partners and Emerson. The Global Marketplace simplifies the deployment of these applications on the Edge node (or on prem). And once these apps are deployed, data can easily be accessed through either REST API or OPC UA protocols. 
+
+<img src="images/application-marketplace.png" width=1000>
+
 ## Data Diode (Optional)
 
 For additional security, you can deploy an optional data diode between the Data Provider and the Edge Environment. 
