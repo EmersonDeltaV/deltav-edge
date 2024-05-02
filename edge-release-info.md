@@ -2,9 +2,6 @@
 # DeltaV Edge Environment v1.0 Release Info
 
 
-
-## Version 1.0 Specifications
-
 |Specification|Description|
 |---|---|
 | Compatibility | DeltaV v14.LTS, v14.FP1, v14.FP2, v14.FP3, and v15.LTS |
@@ -13,7 +10,6 @@
 | Alarms and Events Handling | 100 events/second, 4K peak alarm burst handling |
 | Data Types Supported | DeltaV S88 Plant Hierarchy, Configuration Data, Process Values, Alarms & Events, SIS Module Data |
 | DeltaV Objects/Entities Supported | System, Area, Process Cell, Unit Module, Equipment Module, Control Module, Function Block, Fieldbus Shadow Block, Parameter, Alarm, Named Set, SIS Module, Named State, Engineering Unit, SIS Named Set, SIS Named State, Folder, Field, #Properties, #Config |
-| Store and Forward | Buffers data up to 48 hours |
 | Edge Node's Operating System | [EVE-OS v9.4.6-lts](https://github.com/EmersonDeltaV/lf-edge-eve) (Linux-based OS)|
 
 
@@ -22,7 +18,7 @@
 DeltaV Edge Environment uses Dell PowerEdge R650xs Rack Mounted Server
 
 
-<p align="center">![Figure 1-1. DeltaV Edge Server (Dell PowerEdge R650xs Rack Mounted Server)](images/edge-server.png)</p>
+<img src="images/edge-server.png" width=750>
 
 
 |  Edge Server Hardware Specifications  |
@@ -38,13 +34,11 @@ DeltaV Edge Environment uses Dell PowerEdge R650xs Rack Mounted Server
 | o	1U, Height 42.8mm (1.68in), Width 482mm (18.97in), Depth 748.79mm (29.47in)                   |  
 | o	OS: EVE-OS                                                                                    |
 
-
-
-# Data Diode	
+## Data Diode	(Optional)
 
 The OPSWAT MetaDefender Optical Diode. 
  
-<p align="center"><img src="images/opswat-data-diode.png" width=500></p>
+<img src="images/opswat-data-diode.png" width=750>
 
 For the DeltaV Edge Environment, MetaDefender Optical Diode 100MB and 1GB data transfer rates are supported options. This solution enables you to connect the Data Provider directly to the Edge Node for a secure and simplified IT network solution.
 
