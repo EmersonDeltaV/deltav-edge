@@ -63,7 +63,7 @@ For additional security, you can deploy an optional data diode between the Data 
 
 <img src="images/data-diode-architecture.png" width=1000>
 
-OPSWAT's NetWall Optical Diode is the tested and validated solution for users that need to egress data from the DeltaV system through the DeltaV Edge Environment using a data diode. The NetWall Optical Diode reliably transfers data over a hardware enforced one-way communications link enabling secure data sharing between isolated networks. The Data Diode supports a wide range of industrial protocols, is highly scalable, and can transfer real-time and historical data while ensuring the security and integrity of your critical assets.
+OPSWAT's MetaDefender Optical Diode is the tested and validated solution for users that need to egress data from the DeltaV system through the DeltaV Edge Environment using a data diode. The MetaDefender Optical Diode reliably transfers data over a hardware enforced one-way communications link enabling secure data sharing between isolated networks. The Data Diode supports a wide range of industrial protocols, is highly scalable, and can transfer real-time and historical data while ensuring the security and integrity of your critical assets.
 
 <img src="images/opswat-data-diode.png" width=500>
 
