@@ -63,5 +63,5 @@ DeltaV Edge Environment is a hardware and software solution composed of 4 major 
 
 This project welcomes contributions, suggestions, and feedback. All contributions, suggestions, and feedback you submit are accepted under the Project's license. You represent that if you do not own copyright in the code that you have the authority to submit it under the Project's license. All feedback, suggestions, or contributions are not confidential.
 
-For more information on how to contribute to DeltaV Edge Environment, please read [CONTRIBUTING.md](CONTRIBUTING.md).
+For more information on how to contribute to DeltaV Edge Environment, please read [CONTRIBUTING.md](https://github.com/EmersonDeltaV/.github/blob/main/CONTRIBUTING.md).
 
