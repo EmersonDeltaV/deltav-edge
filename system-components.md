@@ -45,7 +45,7 @@ The Edge Environment's operating system is based on Linux kernel. All the softwa
 
 As a cloud-based software, the Edge Orchestration capability connects to the Edge Environment operating system and helps users manage their Edge Environments by providing visibility and control to both the software applications running within the Edge Environment and the underlying EVE-OS and computing resources. Edge Orchestration is the Edge Environment’s control panel.
 
-<img src="images/edge-orchestration-zededa.png" width=800>
+<img src="images/edge-orchestration-diagram.png" width=1000>
 
 Edge Orchestration can:
 
