@@ -12,11 +12,8 @@ For more details on how to access data via OPC UA, please see more detailed inst
 You can also connect these endpoints to various analytical applications and visualizations such as:
 
 - <a href="https://github.com/EmersonDeltaV/jupyter-labs-for-edge">Jupyter Notebook
-- [Power BI](developer-guide/power-bi/power-bi.md)
-- [Microsoft Excel](developer-guide/microsoft-excel/microsoft-excel.md)
-
-
-
+- [Power BI](./power-bi/power-bi.md)
+- [Microsoft Excel](./microsoft-excel/microsoft-excel.md)
 
 # Application Development
 
