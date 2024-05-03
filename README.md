@@ -42,7 +42,7 @@ To get you started, here are additional info on Edge functionality, sample guide
 
 ## Components
 
-DeltaV Edge Environment is a hardware and software solution composed of 4 major components:
+DeltaV Edge Environment solution is composed of 4 major components:
 
 |  <p align="center"><img src="./images/data-provider.png" width=275></p>| <p align="center"><img src="./images/edge-node.png" width=275></p> | <p align="center"><img src="./images/edge-orchestration.png" width=275></p> | <p align="center"><img src="./images/data-diode.png" width=275></p> |
 |---|---|---|---|
