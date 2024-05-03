@@ -197,7 +197,7 @@ A mock server is a tool used for mocking or stubbing external HTTP APIs. It simu
 
 Please refer to the link below for the mock server. You can use this to explore our REST APIs.
 
-`https://8b1e38e9-9001-4711-950c-437a4310f80d.mock.pstmn.io/edge/`
+`https://8b1e38e9-9001-4711-950c-437a4310f80-.mock.pstmn.io/edge/`
 
 >[!Note]
 >The current mock server is limited to 1k usages per month
