@@ -70,7 +70,7 @@ Shows runtime data integrated with IT data from the web (for example, livestock 
 ![Figure 16-6](./16-6-configure-timestamp.png). 
 
  
-4.	Double-click the GET history node and configure the settings.  
+4.	Double-click the **GET history** node and configure the settings.  
 
 Set the URL endpoint to: `https://10.223.28.66/api/v1/history?path=DEMO-PROPLUS_S/PID-103/PID1/PV.CV&starttime=2023-01-17T19:00:00&endtime=2023-01-17T19:05:00`
 
@@ -82,7 +82,7 @@ Refer to _Disabling/Skipping SSL verification on HTTP Request_ for steps to disa
 
 
  
-5.	Double-click the Process node and configure the settings.
+5.	Double-click the **Process** node and configure the settings.
 
 **Configure Process**
 
@@ -90,7 +90,7 @@ Refer to _Disabling/Skipping SSL verification on HTTP Request_ for steps to disa
 
 
  
-6.	Double-click the chart node and configure the settings.
+6.	Double-click the **chart** node and configure the settings.
 
 **Configure Chart**
 
@@ -98,7 +98,7 @@ Refer to _Disabling/Skipping SSL verification on HTTP Request_ for steps to disa
 
 
  
-7.	Click Deploy to save the changes.
+7.	Click **Deploy** to save the changes.
 
 8.	To open the dashboard window, select Dashboard in the drop-down menu.
 
@@ -125,7 +125,7 @@ Refer to _Disabling/Skipping SSL verification on HTTP Request_ for steps to disa
 
 Listed below are the steps for installing the prerequisite nodes for data visualization.
 
-1.	Go to Menu → Manage palette to install the prerequisite Node-RED dashboard to install the following prerequisite nodes:
+1.	Go to **Menu → Manage palette** to install the prerequisite Node-RED dashboard to install the following prerequisite nodes:
 
 -	node-red-dashboard
 
@@ -140,19 +140,19 @@ Listed below are the steps for installing the prerequisite nodes for data visual
 
 	
 	
-2.	Search for node-red-dashboard, node-red-contrib-moment, and node-red-node-ui- table.
+2.	Search for **node-red-dashboard**, **node-red-contrib-moment**, and **node-red-node-ui-table**.
  
 **Node-RED nodes**
 
 ![Figure 16-14](./16-14-node-red-nodes.png) 
 
 	
-3.	Click Install.
+3.	Click **Install**.
 	
 
 **Install dashboard**
 
-![Figure 16-15](./16-15-install-dashboard.png): 
+![Figure 16-15](./16-15-install-dashboard.png)
 
 
 	
@@ -160,16 +160,16 @@ Listed below are the steps for installing the prerequisite nodes for data visual
 
 **Dashboard nodes** 
 
-![Figure 16-16](./16-16-dashboard-nodes.png): 
+![Figure 16-16](./16-16-dashboard-nodes.png)
 
 
 
 **Running a Sample Node-Red Dashboard**
 
-1.	On a blank Node-RED flow, click Menu → Import to import Node Red_Edge_REST API.json file.
+1.	On a blank Node-RED flow, click **Menu → Import** to import Node Red_Edge_REST API.json file.
 Import file 
 
-![Figure 16-17](./16-17-import-file.png): 
+![Figure 16-17](./16-17-import-file.png)
 
 
 
@@ -180,17 +180,17 @@ Import file
 
 **Imported nodes**
 
-![Figure 16-18](./16-18-imported-nodes.png): 
+![Figure 16-18](./16-18-imported-nodes.png)
 
 
 
-3.	You can edit the request URL of the specific DeltaV Edge Environment system you want to get data from, and the Token generated from Postman. Refer to Postman Authentication for more information.
+3.	You can edit the request **URL** of the specific DeltaV Edge Environment system you want to get data from, and the Token generated from Postman. Refer to Postman Authentication for more information.
 
-4.	Click Done. Refer to _Disabling/Skipping SSL verification on HTTP Request_ for steps to disable or skip SSL verification.
+4.	Click **Done**. Refer to _Disabling/Skipping SSL verification on HTTP Request_ for steps to disable or skip SSL verification.
 
 **Update URL and Token**
 
-![Figure 16-19](./16-19-update-url-token.png): 
+![Figure 16-19](./16-19-update-url-token.png)
 
 
 
@@ -198,7 +198,7 @@ Import file
 
 **Deploy imported Edge node** 
 
-![Figure 16-20](./16-20-deploy-imported-node.png): 
+![Figure 16-20](./16-20-deploy-imported-node.png) 
 
 
  
@@ -207,55 +207,54 @@ Import file
 
 **Accessing Node-RED dashboard** 
 
-![Figure 16-21](./16-21-access-dashboard.png): 
+![Figure 16-21](./16-21-access-dashboard.png) 
 
  
-7.	Click GET_HIST_DATA to read and display data from Edge REST API history endpoint
+7.	Click **GET_HIST_DATA** to read and display data from Edge REST API history endpoint
 
 **GET_HIST_DATA from Edge REST API endpoint** 
 
-![Figure 16-22](./16-22-get-hist-data.png): 
+![Figure 16-22](./16-22-get-hist-data.png) 
 
 
 
-8.	Go to the Edge Alarms and Events page and click GET_AE_DATA to get data from Edge REST API A&E endpoint.
+8.	Go to the Edge Alarms and Events page and click **GET_AE_DATA** to get data from Edge REST API A&E endpoint.
 
 **GET_AE_DATA from Edge REST API A&E endpoint** 
 
-![Figure 16-23](./16-23-get-ae-data.png): 
+![Figure 16-23](./16-23-get-ae-data.png) 
 
 
 
 ## Disabling/Skipping SSL verification on HTTP Request
 
-1.	In Node-RED, click HTTP Request Node and select Enable secure (SSL/TLS) connection.
+1.	In Node-RED, click **HTTP Request Node** and select **Enable secure (SSL/TLS) connection**.
 
 **Edit HTTP request node**
  
-![Figure 16-24](./16-24-edit-http-request.png): 
+![Figure 16-24](./16-24-edit-http-request.png) 
 
  
-2.	Click the Pencil icon to edit the configuration.
+2.	Click the **Pencil** icon to edit the configuration.
 
-3.	Clear the Verify server certificate check box and make sure to click Update.
+3.	Clear the **Verify server certificate** check box and make sure to click **Update**.
 
 **Verify server certificate**
 
-![Figure 16-25](./16-25-verify-server-certificate.png): 
+![Figure 16-25](./16-25-verify-server-certificate.png) 
 
 
-Completing the HTTP request node edit
+4.	Click **Done**.
 
-4.	Click Done.
+**Completing the HTTP request node edit**
 
- 
-![Figure 16-26](./16-26-complete-http-request.png): 
+![Figure 16-26](./16-26-complete-http-request.png) 
 
 
-5.	Click Deploy.
+5.	Click **Deploy**.
 
 **Deploy the HTTP request node edit**
 
-![Figure 16-27](./16-27-deploy-http-request.png): 
+![Figure 16-27](./16-27-deploy-http-request.png) 
 
 
