@@ -9,17 +9,15 @@ Access Grafana using a web browser at `http://{edge_ip}:3000/` where `{edge_ip}`
 Follow the steps below to setup dashboards for visualization of system performance:
 
 1.	Access Grafana in a web browser using `http://{edge_ip}:3000/`.
-
 2.	Login with your username and password.
-
-3.	Navigate to Home > Administration > Plugins. 
+3.	Navigate to **Home > Administration > Plugins**. 
 
 **Administration Plugins**
 
 ![Figure 17-1](./17-1-admin-plugins.png) 
 
 
-4.	In the Plugins window, change the Search state to All and search for the Infinity plugin.
+4.	In the Plugins window, change the Search state to **All** and search for the **Infinity** plugin.
 5.	Select the plugin and click Install.
 
 **Install Infinity plugin**
@@ -27,7 +25,7 @@ Follow the steps below to setup dashboards for visualization of system performan
 ![Figure 17-2](./17-2-install-infinity-plugin.png)
 
 
-6.	After installation, click Create a Infinity data source.
+6.	After installation, click **Create a Infinity data source**.
 
 **Create Infinity data source**
 
@@ -35,7 +33,7 @@ Follow the steps below to setup dashboards for visualization of system performan
 
 
 7.	Configure the data source with the following settings:
-a.	Authentication – Click Bearer token. Generate a bearer token using your REST API endpoint (for example, `https://{edge_ip}/edge/api/v1/Login/GetAuthToken/profile`) and paste it in the bearer token field.
+a.	Authentication – Click **Bearer token**. Generate a bearer token using your REST API endpoint (for example, `https://{edge_ip}/edge/api/v1/Login/GetAuthToken/profile`) and paste it in the bearer token field.
 
 > Note: The bearer token expires, and you may have to renew it periodically.
 
@@ -44,22 +42,22 @@ a.	Authentication – Click Bearer token. Generate a bearer token using your RES
 ![Figure 17-4](./17-4-bearer-token.png)
 
 
-b.	Allowed hosts – Add https://{edge_ip}/edge/api/v1 where {edge_ip} is the IP address of the Edge node. Click Add.
-c.	TLS/SSL & Network Settings - Enable Skip TLS Verify.
+b.	Allowed hosts – Add `https://{edge_ip}/edge/api/v1` where `{edge_ip}` is the IP address of the Edge node. Click **Add**.
+c.	TLS/SSL & Network Settings - Enable **Skip TLS Verify**.
 
 **TLS/SSL & Network Settings**
 
 ![Figure 17-5](./17-5-tls-ssl.png)
 
 
-d.	Security - Check the allowed hosts if the https://{edge_ip}/edge/api/v1 is present. If not, add it.
+d.	Security - Check the allowed hosts if the `https://{edge_ip}/edge/api/v1` is present. If not, add it.
  
 **Security information**
 
 ![Figure 17-6](./17-6-security-info.png)
 
 
-8.	Click Save & test.
+8.	Click **Save & test**.
 
 ## Displaying visualization
 
@@ -67,13 +65,13 @@ You can display data in various visualizations like graphs or diagrams in Grafan
 
 1.	 Navigate to Home -> Dashboards.
 
-2.	Click the New drop-down list and select New Dashboard.
+2.	Click the **New** drop-down list and select New Dashboard.
  
 **New Dashboard**
 
 ![Figure 17-7](./17-7-new-dashboard.png)
 
-3.	On the dashboard builder, click Add Visualization.
+3.	On the dashboard builder, click **Add Visualization**.
 
 4.	Select the data source from the list.
 
@@ -104,10 +102,9 @@ You can display data in various visualizations like graphs or diagrams in Grafan
 - Parsing options and results - Rows/root:
     
     - `$.fieldHistory.fieldValue[*]` for History/cached data
-
     - `$.p.CV.value` for runtime data
 
-6.	Click the Visualization drop-down and select the visualization type.
+6.	Click the **Visualization** drop-down and select the visualization type.
 
 
 **Visualization types**
