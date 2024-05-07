@@ -24,7 +24,7 @@ These industry standard protocols provides an easy and secure way to access the 
 
 |<img src="./images/Grafana.png" width=125>| <img src="./images/Node-RED.png" width=125>| <img src="./images/JupyterNotebook.png" width=125> | <img src="./images/power-bi.png" width=125> | <img src="./images/microsoft-excel.png" width=125> | 
 |---|---|---|----------|----------|
-| <p align="center">[Grafana](developer-guide/grafana/grafana.md)</p> | <p align="center">[Node-RED](developer-guide/node-red/node-red.md)</p> | <p align="center"><a href="https://github.com/EmersonDeltaV/jupyter-labs-for-edge">Jupyter Notebook</p> | <p align="center">[Power BI](developer-guide/power-bi/power-bi.md)</p>  | <p align="center">[Microsoft Excel](developer-guide/microsoft-excel/microsoft-excel.md)</p>   |
+| <p align="center">[Grafana](developer-guide/grafana/grafana.md)</p> | <p align="center">[Node-RED](developer-guide/node-red/node-red.md)</p> | <p align="center">[Jupyter Notebook](./developer-guide/jupyter-notebook/readme.md)</p> | <p align="center">[Power BI](developer-guide/power-bi/power-bi.md)</p>  | <p align="center">[Microsoft Excel](developer-guide/microsoft-excel/microsoft-excel.md)</p>   |
 
 ### Low-touch Maintenance
 
