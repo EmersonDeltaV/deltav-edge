@@ -200,7 +200,7 @@ Please refer to the link below for the mock server. You can use this to explore 
 ```html
 https://4409a8d8-7064-4c03-ada4-f7f46f6b224f.mock.pstmn.io
 ```
-When using the mock server, you can use any random string as `username`, `password`, or any _query string value_ and _payload_. 
+When using the mock server, you can use any random string as `username`, `password`, or any query string value and payload. 
 
 >[!Note]
 >The current mock server is limited to 1k usages per month
