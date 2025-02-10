@@ -36,18 +36,32 @@ Here are step-by-step instructions for setting up your environment and configuri
     
     - Fill in the "URL Parts" with the appropriate details (e.g., `https://{edge ip}/edge/api/v1/ae`).
 
-4. **Set HTTP Request Header Parameters**:
+3. **Set HTTP Request Header Parameters**:
     - Add an HTTP request header parameter:
         - Name: `Authorization`
-        - Value: `"bearer {bearer_token*}"`
+        - Value: `bearer {bearer_token}`
 
 5. **Obtain the Bearer Token**:
     - Query the following URL: `https://{edge ip}/edge/api/v1/Login/GetAuthToken/profile`.
     - Provide the necessary body parameters (Username and Password) to authenticate and retrieve the bearer token.
 
-4. **Copy access token from the result and paste it in the PowerBI form**:  
+6. **Copy access token from the result and paste it in the PowerBI form**:  
     <img src="images/bearer-token-sample.png" width=800><p>
-    
+
+    Replace the value of `Authorization` header `{bearer_token}` with the value of the result's `accessToken`. The value should the include `{}""` characters. Refer to the example below:
+
+    **Example Result:**
+    ```json
+    {
+       "accessToken": "abcdefg",
+       "result": 1
+    }
+    ```
+    **Example Authorization Value:**
+    ```
+    bearer abcdefg
+    ```
+
 Remember to replace `{edge ip}` with the actual IP address of your Edge server. These instructions will guide you in effectively using the Rest API and Bearer Token within PowerBI. 🚀
 
 And thats it! You can now retrieve your data and connect it to Power BI in order to create reports, dashboards or tables.
