@@ -11,7 +11,7 @@ structure with nodes (Entities), edges (Relationships), and attributes (Properti
 
 
 
-![Figure 6-1: REST API Knowledge Graph](6-1-rest-api-knowledge-graph.png)
+![Figure 1-1: REST API Knowledge Graph](1-1.png)
 
 The Edge REST API provides a rich set of text-based data on the entity being queried and its associated parameters. You can retrieve the following data from the Edge through the REST API:
 
@@ -23,6 +23,31 @@ The Edge REST API provides a rich set of text-based data on the entity being que
 
 - Cached alarms & events
 
+- Cached batch events
+
+<br>
+
+## REST API endpoints:
+
+- Hierarchy
+
+`https://{edge_ip}/edge/api/v1/graph`
+
+- History
+
+`https://{edge_ip}/edge/api/v1/history`
+
+- Alarms and Events
+
+`https://{edge_ip}/edge/api/v1/ae`
+
+- Batch Events
+
+`https://{edge_ip}/edge/api/v1/batchevent`
+
+where {edge_ip} is the IP address of the Edge Node Enterprise network (eth0).
+
+<br><br>
 
 # Edge REST API Authentication
 
@@ -39,7 +64,10 @@ https://{edge_ip}/edge/api/v1/Login/GetAuthToken/profile
 ```
 where `{edge_ip}` is the IP address of the Edge Node Enterprise network (eth0).
 
-> : If generating the access token using an Active Directory user, use the Edge REST API endpoint: `https://{edge_ip}/edge/api/v1/Login/GetAuthToken/activedirectory`
+If generating the access token using an Active Directory user, use the Edge REST API endpoint: 
+```
+https://{edge_ip}/edge/api/v1/Login/GetAuthToken/activedirectory
+```
 
 
 3. Go to the Body tab and select **form-data**.
@@ -86,10 +114,22 @@ The access token expires every 24 hours. If your token lifespan is expired, the 
 Once you have obtained authorization to access the Edge REST API, you can obtain
 information (properties and relationships) about the different entities using:
 
+- Query by Entity ID
 - Query by Path
 
-- Query by Entity ID
+## Query by Entity ID
 
+| General Form | Query by Path | 
+|-----|-----|
+| Hierarchy | ```https://{edge_ip}/edge/api/{version}/graph/{entity_id}``` |
+| Runtime | ```https://{edge_ip}/edge/api/{version}/graph/{entity_id}?p={fields}```|
+| History | ``` https://{edge_ip}/edge/api/{version}/history/{param_id}?p={field}```|
+
+
+
+Query by Entity ID works for all DeltaV objects under System provided that they have
+Entity IDs. Parameters and alarms that are not part of the runtime subscription do not
+have Entity IDs on the Edge REST API. They can only be queried by path.
 
 ## Query by Path:
 
@@ -100,75 +140,7 @@ information (properties and relationships) about the different entities using:
 | Runtime | ```https://{edge_ip}/edge/api/{version}/graph?path={system_name}/{shortest_unique_path}&p={fields}```|
 | History | ```https://{edge_ip}/edge/api/{version}/history?path={system_name}/{shortest_unique_path}&p={field}```|
 
-Query by Path works only for DeltaV objects under Control Strategies:
-
-- System
-
-- Area
-
-- Process Cell
-
-- Unit Module
-
-- Equipment Module
-
-- Control Module
-
-- SIS Module
-
-- Function Blocks
-
-- Fieldbus Shadow Block
-
-- Parameter
-
-- Alarm
-
-## Query by Entity ID
-
-| General Form | Query by Entity ID | 
-|-----|-----|
-| Hierarchy | ```https://{edge_ip}/edge/api/{version}/graph/{entity_id}``` |
-| Runtime | ```https://{edge_ip}/edge/api/{version}/graph/{entity_id}?p={fields}```|
-| History | ```https://{edge_ip}/edge/api/{version}/history/{param_id}?p={field}```|
-
-Query by Entity ID works for all DeltaV objects under System provided that they have
-Entity IDs. Parameters and alarms that are not part of the runtime subscription do not
-have Entity IDs on the Edge REST API. They can only be queried by path.
-
-- System
-
-- Area
-
-- Process Cell
-
-- Unit Module
-
-- Equipment Module
-
-- Control Module
-
-- SIS Module
-
-- Function Blocks
-
-- Fieldbus Shadow Block
-
-- Parameter
-
-- Alarm
-
-- Named Sets
-
-- Named States
-
-- SIS Named Sets
-
-- SIS Named States
-
-- Engineering Units
-
-- Folders
+Query by Path works only for DeltaV objects under Control Strategies.
 
 
 There are different categories of data that can be accessed through REST API:
@@ -181,6 +153,9 @@ There are different categories of data that can be accessed through REST API:
 
 - Cached Alarms and Events 
 
+- Cached Batch Events
+
+<br>
 
 **Control Hierarchy Data** refers to the DeltaV system configuration, mainly its Entities (representations of the objects of interest in our domain) that make up the system hierarchy, from System to parameters and fields. This gives the user a replication of the configuration hierarchy for data contextualization.
 
@@ -189,8 +164,15 @@ There are different categories of data that can be accessed through REST API:
 **Cached Process Values** refer to the historical values of function block parameter fields. These provide a record of process values that can be used to observe trends and create reports.
 
 **Alarms & Events** data refer to any noteworthy occurrence in your process or system. These provide records of events that you want the system to react to, or to be brought to the operator's attention. 
+
+**Cached Batch Events** data are similar to Alarms and Events but they are specific to Batch Data. 
  
 For more detailed instructions, please refer to [REST API Acess Data](./rest-api-data-access/rest-api-access-data.md)
+
+
+
+<br>
+
 
 # Mock Server
 A mock server is a tool used for mocking or stubbing external HTTP APIs. It simulates the behavior of a real server by providing predefined responses to requests, allowing developers to test their applications without relying on actual backend systems.
