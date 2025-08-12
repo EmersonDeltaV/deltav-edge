@@ -26,6 +26,14 @@ These industry standard protocols provides an easy and secure way to access the 
 |---|---|---|----------|----------|
 | <p align="center">[Grafana](developer-guide/grafana/grafana.md)</p> | <p align="center">[Node-RED](developer-guide/node-red/node-red.md)</p> | <p align="center">[Jupyter Notebook](./developer-guide/jupyter-notebook/readme.md)</p> | <p align="center">[Power BI](developer-guide/power-bi/power-bi.md)</p>  | <p align="center">[Microsoft Excel](developer-guide/microsoft-excel/microsoft-excel.md)</p>   |
 
+Here are some of the other open-source apps that can be deployed from the DeltaV Edge Marketplace:
+
+|<img src="https://github.com/EmersonDeltaV/metabase/blob/main/assets/Metabase.png" width=90>| <img src="https://github.com/EmersonDeltaV/n8n/blob/main/assets/n8n.png" width=90>| <img src="https://github.com/EmersonDeltaV/minio/blob/main/assets/Minio.png" width=90> | <img src="https://github.com/EmersonDeltaV/mlflow/blob/main/assets/MLFlow.png" width=90> | <img src="https://github.com/EmersonDeltaV/apache-superset/blob/main/assets/Superset.png" width=90> | <img src="https://github.com/EmersonDeltaV/redis/blob/main/Redis.png" width=90> | <img src="https://github.com/EmersonDeltaV/postgresql/blob/main/assets/PostgreSQL.png" width=90> | <img src="https://github.com/EmersonDeltaV/pgadmin/blob/main/assets/pgAdmin.png" width=90> | 
+|---|---|---|----------|----------|----------|----------|----------|
+| <p align="center">[Metabase](https://github.com/EmersonDeltaV/metabase)</p> | <p align="center">[n8n](https://github.com/EmersonDeltaV/n8n)</p> | <p align="center">[Minio](https://github.com/EmersonDeltaV/minio)</p> | <p align="center">[MLFlow](https://github.com/EmersonDeltaV/mlflow)</p>  | <p align="center">[Superset](https://github.com/EmersonDeltaV/apache-superset)</p>   | <p align="center">[Redis](https://github.com/EmersonDeltaV/redis)</p>   |<p align="center">[PostgreSQL](https://github.com/EmersonDeltaV/postgresql)</p>   |<p align="center">[pgAdmin](https://github.com/EmersonDeltaV/pgadmin)</p>   |
+
+
+
 ### Low-touch Maintenance
 
 Software deployment, troubleshooting, updates and upgrades are executed remotely by Emerson, or users can choose to manage these functions themselves.
