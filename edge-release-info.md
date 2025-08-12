@@ -8,6 +8,7 @@
 | Number of Supported Data Items | 20k, 100k, 300k |
 | Supported Sampling Periods | 1s, 2s, 5s, 10s, 60s |
 | Alarms and Events Handling | 100 events/second, 4K peak alarm burst handling |
+| Batchy Events | Supports data from up to 4 active Batch Executives, each handling up to 100 active batches |
 | Data Types Supported | DeltaV S88 Plant Hierarchy, Configuration Data, Process Values, Alarms & Events, SIS Module Data |
 | DeltaV Objects/Entities Supported | System, Area, Process Cell, Unit Module, Equipment Module, Control Module, Function Block, Fieldbus Shadow Block, Parameter, Alarm, Named Set, SIS Module, Named State, Engineering Unit, SIS Named Set, SIS Named State, Folder, Field, #Properties, #Config |
 | Edge Node's Operating System | [EVE-OS v12.0.7-LTS](https://github.com/EmersonDeltaV/lf-edge-eve) (Linux-based OS)|
@@ -22,27 +23,24 @@ DeltaV Edge Environment utilizes the Dell PowerEdge R660xs XL server as its host
 | --- |
 | ![Dell PowerEdge R660xs XL](images/edge-server.png) |
 
-| Specifications | DeltaV Edge Server | DeltaV Edge Server Advanced |
-| --- | --- | --- |
-| Part Number | SE2742C01 | SE2742C02 |
-| Core Edge Apps | Supported | Supported |
-| DeltaV™ Live on Edge | Not Supported | Supported |
-| 3rd Party App Hosting | Up to 3 apps | More than 3 apps (limit depends on app type) |
-| Recommended Use Case | Ideal for data egress, collecting and transferring data to enterprise/cloud | Designed for hosting applications on the Edge server, enabling processing and visualization at the Edge level |
-| Memory (RAM) | 128GB RAM | 256GB RAM |
-| CPU | Dual Intel Xeon Gold 5415+ 2.9G, 8C/16T, 16GT/s, 22.5M, Cache, Turbo, HT (150W) DDR5-4400 | Dual Intel Xeon Gold 6526Y 2.8G, 16C/32T, 20GT/s, 37.5M Cache, Turbo, HT (195W) DDR5-5200 |
-| Storage | 12TB SSD (7 x 1.92TB SATA Read-Intensive SSD, RAID 5) | 12TB SSD (7 x 1.92TB SATA Read-Intensive SSD, RAID 5) |
-| Chassis | 2.5" Chassis with up to 8 Hard Drives (SAS/SATA), 2 CPU | 2.5" Chassis with up to 8 Hard Drives (SAS/SATA), 2 CPU |
-| RAID Controller | PERC H755 SAS Front | PERC H755 SAS Front |
-| Network Interface | Broadcom 5720 Quad Port 1GbE BASE-T Adapter, OCP NIC 3.0 | Broadcom 5720 Quad Port 1GbE BASE-T Adapter, OCP NIC 3.0 |
-| Power Supply | Dual, Hot-Plug, Redundant (1 +1 ), 800W | Dual, Hot-Plug, Redundant (1 +1 ), 800W |
-| Management | iDRAC9, Enterprise 16G | iDRAC9, Enterprise 16G |
-| Form Factor | 1U Rack-Mounted Server (Height: 42.8mm (1.68in), Width: 482mm (18.97in), Depth: 748.79mm (29.47in)) | 1U Rack-Mounted Server (Height: 42.8mm (1.68in), Width: 482mm (18.97in), Depth: 748.79mm (29.47in)) |
-| Operating System | EVE-OS 12.0.7 LTS | EVE-OS 12.0.7 LTS |
-| Warranty | Up to 5 Years | Up to 5 Years |
+| Specifications | Details |
+| --- | --- |
+| Part Number | SE2742C02 |
+| Supported Capabilities | Core DeltaV™ Edge applications, DeltaV Live Enterprise View, and third-party app hosting |
+| Memory (RAM) | 256GB RAM |
+| CPU | Dual Intel Xeon Gold 6526Y 2.8G, 16C/32T, 20GT/s, 37.5M Cache, Turbo, HT (195W) DDR5-5200 |
+| Storage |  12TB SSD (7 x 1.92TB SATA Read-Intensive SSD, RAID 5) |
+| Chassis | 2.5" Chassis with up to 8 Hard Drives (SAS/SATA), 2 CPU |
+| RAID Controller | PERC H755 SAS Front |
+| Network Interface | Broadcom 5720 Quad Port 1GbE BASE-T Adapter, OCP NIC 3.0 |
+| Power Supply | Dual, Hot-Plug, Redundant (1 +1 ), 800W |
+| Management | iDRAC9, Enterprise 16G |
+| Form Factor | 1U Rack-Mounted Server (Height: 42.8mm (1.68in), Width: 482mm (18.97in), Depth: 748.79mm (29.47in)) |
+| Operating System | EVE-OS 12.0.7 LTS |
+| Warranty | Up to 5 Years |
 
 The Dell PowerEdge R660xs XL server replaces the previously supported Dell PowerEdge R650xs (SE2741C01) in this configuration. However, the R650xs model still includes a five-year warranty from Dell, applicable from the original date of purchase.
-                                                                     |
+                                                                   
 
 ## Data Diode	(Optional)
 
