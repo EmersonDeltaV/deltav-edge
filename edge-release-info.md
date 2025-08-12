@@ -8,7 +8,7 @@
 | Number of Supported Data Items | 20k, 100k, 300k |
 | Supported Sampling Periods | 1s, 2s, 5s, 10s, 60s |
 | Alarms and Events Handling | 100 events/second, 4K peak alarm burst handling |
-| Batchy Events | Supports data from up to 4 active Batch Executives, each handling up to 100 active batches |
+| Batch Events | Supports data from up to 4 active Batch Executives, each handling up to 100 active batches |
 | Data Types Supported | DeltaV S88 Plant Hierarchy, Configuration Data, Process Values, Alarms & Events, SIS Module Data |
 | DeltaV Objects/Entities Supported | System, Area, Process Cell, Unit Module, Equipment Module, Control Module, Function Block, Fieldbus Shadow Block, Parameter, Alarm, Named Set, SIS Module, Named State, Engineering Unit, SIS Named Set, SIS Named State, Folder, Field, #Properties, #Config |
 | Edge Node's Operating System | [EVE-OS v12.0.7-LTS](https://github.com/EmersonDeltaV/lf-edge-eve) (Linux-based OS)|
