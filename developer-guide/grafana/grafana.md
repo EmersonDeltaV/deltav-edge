@@ -89,7 +89,7 @@ You can display data in various visualizations like graphs or diagrams in Grafan
 
 
 - Type - JSON
-- Parser - Backend
+- Parser - JSONata
 - Source - URL
 - Format - Table
 - Method - GET
