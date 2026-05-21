@@ -93,7 +93,7 @@ This holds the IP address of your DeltaV Edge Node, so you can switch between de
     - **Description**: `DeltaV Edge Node IP address`
     - **Required**: checked
     - **Type**: `Text`
-    - **Current Value**: your Edge Node IP, for example `10.166.58.11` (no protocol, no path)
+    - **Current Value**: your Edge Node IP, for example `192.168.1.1` (no protocol, no path)
 
     <img src="images/power-bi-param-edgeip.png" width=500><p>
 
@@ -228,7 +228,7 @@ The first time Power Query runs a query against a new URL, it asks how to authen
 
 1. A yellow bar may appear at the top of the preview area saying "Please specify how to connect." Click **Edit Credentials**. (If a dialog opens automatically, skip this step.)
 2. The **Access Web content** dialog opens. In the left sidebar, click **Anonymous**.
-3. At the top of the dialog, there is a dropdown labeled "Select which level to apply these settings to." Choose the URL that matches your Edge IP, for example `https://10.166.58.11`. This applies the anonymous credential to all endpoints under that base URL.
+3. At the top of the dialog, there is a dropdown labeled "Select which level to apply these settings to." Choose the URL that matches your Edge IP, for example `https://192.168.1.1`. This applies the anonymous credential to all endpoints under that base URL.
 4. Click **Connect**.
 
 > Why Anonymous? Because the actual authentication is handled by the bearer token in the `Authorization` header. Power BI does not need its own credential. Choosing any other option here will conflict with the header auth.
